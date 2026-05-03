@@ -1,5 +1,6 @@
 import uuid
-from sqlalchemy import String, Text, Integer, Float, ForeignKey
+from datetime import datetime, timezone
+from sqlalchemy import String, Text, Integer, Float, ForeignKey, DateTime
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.models.base import Base, UUIDMixin, TimestampMixin
@@ -28,8 +29,8 @@ class ChatMessage(Base, UUIDMixin):
     token_count: Mapped[int | None] = mapped_column(Integer, nullable=True)
     latency_ms: Mapped[float | None] = mapped_column(Float, nullable=True)
     metadata_: Mapped[dict | None] = mapped_column("metadata", JSONB, default=dict)
-    created_at: Mapped[str] = mapped_column(
-        String, default=lambda: __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat()
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=lambda: datetime.now(timezone.utc)
     )
 
     conversation = relationship("Conversation", back_populates="messages")

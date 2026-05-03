@@ -1,0 +1,3463 @@
+{
+  "metrics": {
+    "total_questions": 150,
+    "retrieval_recall_at_5": 0.9133333333333333,
+    "avg_f1": 0.14803096226647278,
+    "avg_answer_recall": 0.8106084656084654,
+    "exact_match_rate": 0.0,
+    "avg_latency_seconds": 13.252278159459433,
+    "total_latency_seconds": 1987.8417239189148
+  },
+  "results": [
+    {
+      "question": "What percentage of global assets does the richest 1% of people have?",
+      "ground_truth": "40%",
+      "answer": "Based on the provided context:\n\n- The richest 1% of adults owned **40% of global assets in the year 2000** [1].\n- The wealthiest 1% owns **46% of the world's wealth** (as of a 2014 analysis) [3].\n- A 2015 Credit Suisse study claims the top 1% owns **nearly half (50%) of the world's wealth** [4].",
+      "rewritten_query": "What percentage of global assets is owned by the richest 1% of people?",
+      "multi_queries": [
+        "What percentage of global assets does the richest 1% of people have?",
+        "How much of the world's wealth is controlled by the top 1% of the population?",
+        "What share of global assets is held by the wealthiest 1% of individuals?",
+        "Percentage of total global assets owned by the richest 1% of people"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.037037037037037035,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 10.20632290840149
+    },
+    {
+      "question": "According to Oxfam, the 85 richest people have wealth equal to how many average people?",
+      "ground_truth": "about 3.5 billion people",
+      "answer": "According to Oxfam, the 85 wealthiest individuals in the world have a combined wealth equal to that of the bottom 50% of the world's population, which is about **3.5 billion people** [1][2].",
+      "rewritten_query": "According to Oxfam, the wealth of the 85 richest people is equal to how many average people?",
+      "multi_queries": [
+        "According to Oxfam, the 85 richest people have wealth equal to how many average people?",
+        "Oxfam report: wealth comparison between 85 richest individuals and average people",
+        "How many average people's wealth equals that of the 85 richest people according to Oxfam?",
+        "Oxfam data: wealth of top 85 individuals compared to global average population"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.2222222222222222,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.15025806427002
+    },
+    {
+      "question": "In order to be considered in the top percentile, a person would need to amass how much money each year?",
+      "ground_truth": "$759,900",
+      "answer": "I don't have enough information in the provided documents to answer this question. The context does not specify the annual income or wealth accumulation required to be in the top percentile (top 1%). [1][2][4]",
+      "rewritten_query": "What annual income is required to be in the top 1% of earners?",
+      "multi_queries": [
+        "In order to be considered in the top percentile, a person would need to amass how much money each year?",
+        "How much money must a person earn per year to be in the top percentile of income?",
+        "What is the yearly income threshold to be considered in the top 1% wealthiest individuals?",
+        "How much annual income is needed to rank in the highest percentile of earners?"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Computational_complexity_theory.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 9.348354816436768
+    },
+    {
+      "question": "What has caused Oxfam's findings to be questioned?",
+      "ground_truth": "the methodology used",
+      "answer": "Oxfam's findings have been questioned based on the methodology used, specifically their use of **net wealth** (adding up assets and subtracting debts) [2]. This approach has led to criticisms, such as the claim that it results in identifying more poor people in the United States and Western Europe than in China due to higher debt levels [1]. However, Anthony Shorrocks, a lead author of one of Oxfam's data sources, dismisses these criticisms as a \"silly argument\" and a \"non-issue\" [1].",
+      "rewritten_query": "What are the reasons or criticisms that have led to questions about the validity or findings of Oxfam's reports or research?",
+      "multi_queries": [
+        "What has caused Oxfam's findings to be questioned?",
+        "What controversies or challenges have been raised regarding Oxfam's research or findings?",
+        "Why have Oxfam's reports or studies been disputed or questioned by others?",
+        "What factors have contributed to skepticism or criticism of Oxfam's data or conclusions?"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.07228915662650602,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 11.982939958572388
+    },
+    {
+      "question": "Why does Oxfam and Credit Suisse believe their findings are being doubted?",
+      "ground_truth": "a diversion",
+      "answer": "Oxfam and Credit Suisse's findings are being doubted primarily due to their methodology, specifically their use of **net wealth** (assets minus debts). Critics argue that this approach leads to misleading conclusions, such as suggesting there are more poor people in the U.S. and Western Europe than in China because of higher debt levels [1].\n\nAnthony Shorrocks, lead author of the Credit Suisse report (a source for Oxfam's data), dismisses this criticism as a \"silly argument\" and a \"non-issue\" [1]. However, the skepticism persists, particularly regarding how net wealth calculations may distort perceptions of global inequality [3].",
+      "rewritten_query": "Why are the findings of Oxfam and Credit Suisse being doubted?",
+      "multi_queries": [
+        "Why does Oxfam and Credit Suisse believe their findings are being doubted?",
+        "What are the reasons behind the skepticism towards Oxfam and Credit Suisse's findings?",
+        "Why do people question the credibility of Oxfam and Credit Suisse's research?",
+        "What criticisms or doubts have been raised about the findings of Oxfam and Credit Suisse?"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.020408163265306124,
+      "exact_match": false,
+      "answer_recall": 0.5,
+      "latency": 12.145140886306763
+    },
+    {
+      "question": "What percent of the global assets in 2000 were owned by just 1% of adults?",
+      "ground_truth": "40%",
+      "answer": "According to the context, the richest 1% of adults alone owned **40% of global assets in the year 2000** [1].",
+      "rewritten_query": "What percentage of global assets in the year 2000 were owned by the top 1% of adults?",
+      "multi_queries": [
+        "What percent of the global assets in 2000 were owned by just 1% of adults?",
+        "What share of worldwide wealth in 2000 was held by the wealthiest 1% of adults?",
+        "How much of the total global assets in 2000 did the top 1% of adults possess?",
+        "What proportion of global assets in 2000 was controlled by the richest 1% of the adult population?"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.09523809523809523,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 11.06093692779541
+    },
+    {
+      "question": "What do the three richest people in the world posses more of than the lowest 48 nations together?",
+      "ground_truth": "financial assets",
+      "answer": "The three richest people in the world possess more **financial assets** than the lowest 48 nations combined [1].",
+      "rewritten_query": "What do the three wealthiest individuals in the world collectively own more of than the combined wealth of the lowest 48 countries?",
+      "multi_queries": [
+        "What do the three richest people in the world posses more of than the lowest 48 nations together?",
+        "What assets or resources are owned by the top three richest people globally that exceed the total wealth of the poorest 48 nations?",
+        "Which financial or material possessions do the three richest people have in greater quantity or value than the combined bottom 48 countries?",
+        "What is the comparison between the collective wealth of the world's top three richest individuals and the total wealth of the 48 least wealthy nations?"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.19999999999999998,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.806241989135742
+    },
+    {
+      "question": "How much was the combined wealth of the \"10 Million dollar millionaires\" in 2008?",
+      "ground_truth": "nearly $41 trillion",
+      "answer": "The combined wealth of the \"10 million dollar millionaires\" grew to nearly **$41 trillion in 2008** [1].",
+      "rewritten_query": "What was the total combined wealth of the individuals classified as '10 Million dollar millionaires' in the year 2008?",
+      "multi_queries": [
+        "How much was the combined wealth of the \"10 Million dollar millionaires\" in 2008?",
+        "How much wealth did the '10 Million dollar millionaires' group accumulate collectively in 2008?",
+        "What was the aggregate net worth of the '10 Million dollar millionaires' in 2008?",
+        "Total wealth of the '10 Million dollar millionaires' category in 2008: what was the combined amount?"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.3,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.805755138397217
+    },
+    {
+      "question": "How much of the global wealth will the wealthiest 1 percent own by 2016?",
+      "ground_truth": "half",
+      "answer": "According to the context, Oxfam reported in January 2015 that the wealthiest 1 percent will own more than half of the global wealth by 2016 [1].",
+      "rewritten_query": "What percentage of global wealth will the wealthiest 1 percent own by the year 2016?",
+      "multi_queries": [
+        "How much of the global wealth will the wealthiest 1 percent own by 2016?",
+        "Projected share of global wealth held by the top 1 percent in 2016",
+        "By 2016, what fraction of total global wealth will the richest 1 percent possess?",
+        "Global wealth distribution: predicted ownership share of the wealthiest 1 percent in 2016"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.07407407407407407,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 13.784291982650757
+    },
+    {
+      "question": "Why are there more poor people in the United States and Europe than China?",
+      "ground_truth": "greater tendency to take on debts",
+      "answer": "According to the context, the Oxfam report finds that there are more poor people in the United States and Western Europe than in China when using **net wealth** (assets minus debts) as the measure. This is attributed to a greater tendency in the U.S. and Europe to take on debts [1].",
+      "rewritten_query": "What are the reasons for higher poverty rates in the United States and Europe compared to China?",
+      "multi_queries": [
+        "Why are there more poor people in the United States and Europe than China?",
+        "Factors contributing to greater poverty in the US and Europe than in China",
+        "Why does China have lower poverty rates than the United States and Europe?",
+        "Economic and social reasons for the disparity in poverty levels between China and Western nations"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Yuan_dynasty.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.21052631578947367,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 10.528496742248535
+    },
+    {
+      "question": "Where does the Rhine empty?",
+      "ground_truth": "North Sea",
+      "answer": "The Rhine empties into the North Sea in the Netherlands. [2][3]",
+      "rewritten_query": "Where does the Rhine River empty into?",
+      "multi_queries": [
+        "Where does the Rhine empty?",
+        "What body of water does the Rhine River flow into?",
+        "Where does the Rhine River discharge its waters?",
+        "What is the final destination of the Rhine River?"
+      ],
+      "sources": [
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.3076923076923077,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.995706796646118
+    },
+    {
+      "question": "What is the largest city the Rhine runs through? ",
+      "ground_truth": "Cologne, Germany",
+      "answer": "The largest city the Rhine runs through is **Cologne, Germany**, with a population of more than 1,050,000 people [2].",
+      "rewritten_query": "What is the largest city that the Rhine River flows through?",
+      "multi_queries": [
+        "What is the largest city the Rhine runs through? ",
+        "Which major city along the Rhine River is the largest?",
+        "Name the biggest city situated on the Rhine River.",
+        "What is the largest urban area the Rhine River passes through?"
+      ],
+      "sources": [
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.1904761904761905,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.80360221862793
+    },
+    {
+      "question": "What river is larger than the Rhine?",
+      "ground_truth": "Danube",
+      "answer": "Based on the provided context, the **Aare** is described as a major tributary of the Rhine that \"more than doubles the Rhine's water discharge\" [1]. However, the context does not explicitly state whether the Aare is considered a \"larger\" river than the Rhine in terms of length or overall basin size.\n\nIf the question refers to **discharge (water volume)**, the Aare contributes significantly more water to the Rhine's flow [1]. If the question refers to **length**, the context does not provide information about any river longer than the Rhine in the region.\n\n**Answer:** I don't have enough information in the provided documents to definitively state which river is larger than the Rhine in all aspects. The Aare has a greater discharge than the Rhine at their confluence [1].",
+      "rewritten_query": "What river has a larger discharge or drainage area than the Rhine River?",
+      "multi_queries": [
+        "What river is larger than the Rhine?",
+        "List rivers with greater water volume or basin size than the Rhine River",
+        "Find rivers larger than the Rhine in terms of flow rate or watershed area",
+        "Which rivers exceed the Rhine in size metrics like discharge or drainage basin?"
+      ],
+      "sources": [
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 12.371620178222656
+    },
+    {
+      "question": "How long is the Rhine?",
+      "ground_truth": "1,230 km (760 mi)",
+      "answer": "The length of the Rhine is **1,232 kilometers** (as confirmed by the Dutch Rijkswaterstaat in 2010) [2]. However, the river's length is also measured in \"Rhine-kilometers\" (Rheinkilometer), which runs from **0 km at Constance to 1036.20 km at Hoek van Holland** [1]. The \"total length\" including Lake Constance and the Alpine Rhine is more difficult to measure [1].",
+      "rewritten_query": "What is the length of the Rhine River?",
+      "multi_queries": [
+        "How long is the Rhine?",
+        "How long is the Rhine River in kilometers?",
+        "What is the total length of the Rhine?"
+      ],
+      "sources": [
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.03225806451612903,
+      "exact_match": false,
+      "answer_recall": 0.25,
+      "latency": 8.71234679222107
+    },
+    {
+      "question": "Where is the Rhine? ",
+      "ground_truth": "Europe",
+      "answer": "The Rhine is a European river that begins in the Swiss canton of Graub\u00fcnden in the southeastern Swiss Alps. It forms parts of the Swiss-Austrian, Swiss-Liechtenstein, Swiss-German, and Franco-German borders, flows through the Rhineland, and eventually empties into the North Sea in the Netherlands [1]. Its course includes significant sections in Switzerland, Germany, France, and the Netherlands.",
+      "rewritten_query": "Where is the Rhine river located geographically?",
+      "multi_queries": [
+        "Where is the Rhine? ",
+        "Geographical location of the Rhine river",
+        "In which countries does the Rhine river flow?",
+        "What is the path and location of the Rhine river?"
+      ],
+      "sources": [
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 11.032161235809326
+    },
+    {
+      "question": "What country does the Rhine empty?",
+      "ground_truth": "Netherlands",
+      "answer": "The Rhine empties into the **North Sea in the Netherlands** [1].",
+      "rewritten_query": "Which country does the Rhine River empty into?",
+      "multi_queries": [
+        "What country does the Rhine empty?",
+        "Where does the Rhine River flow into the sea?",
+        "What is the final destination of the Rhine River?"
+      ],
+      "sources": [
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.16666666666666669,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.985224008560181
+    },
+    {
+      "question": "How long is the Rhine? ",
+      "ground_truth": "1,230 km",
+      "answer": "The length of the Rhine is **1,232 kilometres**, as confirmed by the Dutch Rijkswaterstaat after an error was discovered in 2010 [2]. The conventional measurement system (\"Rhine-kilometers\") runs from 0 km at Constance to 1036.20 km at Hoek van Holland, but this does not represent the full natural length [1].",
+      "rewritten_query": "What is the length of the Rhine River?",
+      "multi_queries": [
+        "How long is the Rhine? ",
+        "How long is the Rhine River in kilometers?",
+        "What is the total length of the Rhine?"
+      ],
+      "sources": [
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.038461538461538464,
+      "exact_match": false,
+      "answer_recall": 0.5,
+      "latency": 8.772548913955688
+    },
+    {
+      "question": "Where does the name Rhine derive from? ",
+      "ground_truth": "Gaulish name R\u0113nos",
+      "answer": "The name **Rhine** derives from the **Gaulish name R\u0113nos**, which was adapted in Roman-era geography (1st century BC) as Greek **\u1fec\u1fc6\u03bd\u03bf\u03c2 (Rh\u0113nos)** and Latin **Rhenus**. The spelling with *Rh-* and the vocalization *-i-* in modern languages (e.g., English *Rhine*, German *Rhein*, French *Rhin*) stem from Greek orthography and Proto-Germanic adoption of the Gaulish name as ***R\u012bnaz*** [1].",
+      "rewritten_query": "What is the origin and etymology of the name Rhine?",
+      "multi_queries": [
+        "Where does the name Rhine derive from? ",
+        "What are the historical roots of the name Rhine?",
+        "From which language or culture does the name Rhine originate?",
+        "What linguistic or historical sources explain the derivation of the name Rhine?"
+      ],
+      "sources": [
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Warsaw.txt",
+        "Huguenot.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.10169491525423728,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 11.828334093093872
+    },
+    {
+      "question": "What is the French name for the Rhine? ",
+      "ground_truth": "Rhin",
+      "answer": "The French name for the Rhine is **le Rhin** [5].",
+      "rewritten_query": "What is the French name for the Rhine river?",
+      "multi_queries": [
+        "What is the French name for the Rhine? ",
+        "French name of the Rhine River",
+        "What is the Rhine called in French?",
+        "Name of the Rhine in French language"
+      ],
+      "sources": [
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.18181818181818182,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.266011714935303
+    },
+    {
+      "question": "What is the Proto-Germanic adaptation of the name of the Rhine?",
+      "ground_truth": "R\u012bnaz",
+      "answer": "The Proto-Germanic adaptation of the Gaulish name *R\u0113nos* for the Rhine is **\\*R\u012bnaz** [1].",
+      "rewritten_query": "What is the Proto-Germanic adaptation of the name 'Rhine'?",
+      "multi_queries": [
+        "What is the Proto-Germanic adaptation of the name of the Rhine?",
+        "How was the name 'Rhine' adapted in Proto-Germanic?",
+        "What is the Proto-Germanic form of the name 'Rhine'?",
+        "How did Proto-Germanic speakers refer to the Rhine?"
+      ],
+      "sources": [
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.13333333333333333,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 41.01621723175049
+    },
+    {
+      "question": "What is the largest city of Poland?",
+      "ground_truth": "Warsaw",
+      "answer": "The largest city of Poland is Warsaw [1].",
+      "rewritten_query": "What is the largest city in Poland?",
+      "multi_queries": [
+        "What is the largest city of Poland?",
+        "Which city in Poland has the highest population?",
+        "Name the biggest city by area or population in Poland."
+      ],
+      "sources": [
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.2222222222222222,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.748767137527466
+    },
+    {
+      "question": "On what river does Warsaw stand?",
+      "ground_truth": "Vistula",
+      "answer": "Warsaw stands on the **Vistula River** [1][2].",
+      "rewritten_query": "On which river is Warsaw located?",
+      "multi_queries": [
+        "On what river does Warsaw stand?",
+        "What river is Warsaw situated on?",
+        "Which river flows through Warsaw?"
+      ],
+      "sources": [
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Rhine.txt",
+        "Warsaw.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.25,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 5.906915187835693
+    },
+    {
+      "question": "How far is Warsaw from the Baltic Sea?",
+      "ground_truth": "roughly 260 kilometres",
+      "answer": "Warsaw is roughly **260 kilometres (160 miles)** from the Baltic Sea [1][2].",
+      "rewritten_query": "What is the distance between Warsaw and the Baltic Sea?",
+      "multi_queries": [
+        "How far is Warsaw from the Baltic Sea?",
+        "How many kilometers is Warsaw from the Baltic Sea?",
+        "What is the geographical distance from Warsaw to the nearest point on the Baltic Sea coast?"
+      ],
+      "sources": [
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.4,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.141915798187256
+    },
+    {
+      "question": "How many residents does the greater metropolitan area have?",
+      "ground_truth": "2.666 million",
+      "answer": "The greater metropolitan area of Warsaw has an estimated **2.666 million residents** [2].",
+      "rewritten_query": "What is the population of the greater metropolitan area?",
+      "multi_queries": [
+        "How many residents does the greater metropolitan area have?",
+        "How many people live in the greater metropolitan area?",
+        "What is the total number of residents in the greater metropolitan area?"
+      ],
+      "sources": [
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Yuan_dynasty.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.2666666666666667,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.596638917922974
+    },
+    {
+      "question": "What rank for most populous city in the European Union does Warsaw hold?",
+      "ground_truth": "9th",
+      "answer": "Warsaw is the **9th most-populous capital city in the European Union** [1][2].",
+      "rewritten_query": "What is the rank of Warsaw among the most populous cities in the European Union?",
+      "multi_queries": [
+        "What rank for most populous city in the European Union does Warsaw hold?",
+        "Rank of Warsaw compared to other EU cities by population",
+        "How does Warsaw's population rank among EU capital cities?",
+        "Warsaw's position in the list of largest cities in the European Union"
+      ],
+      "sources": [
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.15384615384615385,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.7702600955963135
+    },
+    {
+      "question": "Who ranked Warsaw as the 32nd most liveable city in the world?",
+      "ground_truth": "Economist Intelligence Unit",
+      "answer": "The Economist Intelligence Unit ranked Warsaw as the 32nd most liveable city in the world [1].",
+      "rewritten_query": "Which organization or report ranked Warsaw as the 32nd most liveable city in the world?",
+      "multi_queries": [
+        "Who ranked Warsaw as the 32nd most liveable city in the world?",
+        "What is the name of the ranking system that placed Warsaw at the 32nd position in global liveability?",
+        "Which publication or study listed Warsaw as the 32nd most liveable city worldwide?"
+      ],
+      "sources": [
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.3157894736842105,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 6.402692794799805
+    },
+    {
+      "question": "When was Warsaw ranked as the 32nd most liveable city in the world?",
+      "ground_truth": "2012",
+      "answer": "Warsaw was ranked as the 32nd most liveable city in the world in **2012**, according to the Economist Intelligence Unit [1].",
+      "rewritten_query": "When was Warsaw ranked as the 32nd most liveable city in the world?",
+      "multi_queries": [
+        "When was Warsaw ranked as the 32nd most liveable city in the world?",
+        "In which year did Warsaw achieve the 32nd position in the global liveability ranking?",
+        "What was the year when Warsaw was listed as the 32nd most liveable city worldwide?",
+        "Find the year Warsaw was ranked 32nd in the list of most liveable cities globally."
+      ],
+      "sources": [
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0909090909090909,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.933089971542358
+    },
+    {
+      "question": "What is Warsaw's economy characterized by?",
+      "ground_truth": "wide variety of industries",
+      "answer": "Warsaw's economy is characterized by **FMCG manufacturing, metal processing, steel and electronic manufacturing, and food processing** [1].",
+      "rewritten_query": "What are the key characteristics of Warsaw's economy?",
+      "multi_queries": [
+        "What is Warsaw's economy characterized by?",
+        "What industries and economic sectors define Warsaw's economy?",
+        "How would you describe the economic structure and major features of Warsaw?",
+        "What are the main economic activities and trends in Warsaw?"
+      ],
+      "sources": [
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 9.674567937850952
+    },
+    {
+      "question": "What exchange in Warsaw is one of the most important for Central and Eastern Europe?",
+      "ground_truth": "Stock",
+      "answer": "The Warsaw Stock Exchange is one of the largest and most important in Central and Eastern Europe [1][2].",
+      "rewritten_query": "What is the name of the most important stock exchange in Warsaw for Central and Eastern Europe?",
+      "multi_queries": [
+        "What exchange in Warsaw is one of the most important for Central and Eastern Europe?",
+        "Which stock exchange in Warsaw is considered the most significant for Central and Eastern Europe?",
+        "Name the primary stock exchange in Warsaw that serves Central and Eastern Europe.",
+        "What is the leading exchange in Warsaw for Central and Eastern European financial markets?"
+      ],
+      "sources": [
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt",
+        "Warsaw.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.10526315789473684,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 23.093204021453857
+    },
+    {
+      "question": "What is the name of the European Union agency for external border security?",
+      "ground_truth": "Frontex",
+      "answer": "The name of the European Union agency for external border security is **Frontex**, and its headquarters are located in Warsaw [1].",
+      "rewritten_query": "What is the name of the European Union agency responsible for external border security?",
+      "multi_queries": [
+        "What is the name of the European Union agency for external border security?",
+        "Which EU agency manages external border security?",
+        "Name the European Union agency tasked with overseeing external border protection."
+      ],
+      "sources": [
+        "Warsaw.txt",
+        "European_Union_law.txt",
+        "Scottish_Parliament.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0909090909090909,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 16.14857292175293
+    },
+    {
+      "question": "The atomic number of the periodic table for oxygen?",
+      "ground_truth": "8",
+      "answer": "The atomic number of oxygen is **8** [1].",
+      "rewritten_query": "What is the atomic number of oxygen on the periodic table?",
+      "multi_queries": [
+        "The atomic number of the periodic table for oxygen?",
+        "Find the atomic number of the element oxygen in the periodic table",
+        "What is the position number of oxygen in the periodic table?",
+        "Retrieve the atomic number for the chemical element oxygen"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.2222222222222222,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.179295063018799
+    },
+    {
+      "question": "What is the second most abundant element?",
+      "ground_truth": "helium",
+      "answer": "Based on the provided context, the second most abundant chemical element in the universe is **helium** [1][2]. However, the context does not specify the second most abundant element by mass in the Earth's biosphere, air, sea, or land.\n\nFor the Earth's atmosphere, the second most common component is **oxygen gas**, taking up 20.8% of its volume [1][3]. The context does not provide information about the second most abundant element in other specific contexts (e.g., Earth's crust or oceans).",
+      "rewritten_query": "What is the second most abundant element in the universe?",
+      "multi_queries": [
+        "What is the second most abundant element?",
+        "Which element ranks second in abundance in the universe?",
+        "What element is the second most common by mass or volume in the cosmos?"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.02531645569620253,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.809547185897827
+    },
+    {
+      "question": "Which gas makes up 20.8% of the Earth's atmosphere?",
+      "ground_truth": "Diatomic oxygen",
+      "answer": "Diatomic oxygen gas (O\u2082) makes up 20.8% of the Earth's atmosphere [1][2][3].",
+      "rewritten_query": "Which gas constitutes 20.8% of the Earth's atmosphere?",
+      "multi_queries": [
+        "Which gas makes up 20.8% of the Earth's atmosphere?",
+        "What is the gas that makes up 20.8% of Earth's atmospheric composition?",
+        "Identify the gas present at 20.8% volume in the Earth's atmosphere.",
+        "Which gas accounts for 20.8% of the Earth's atmospheric gases?"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.2857142857142857,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.9561128616333
+    },
+    {
+      "question": "How many atoms combine to form dioxygen?",
+      "ground_truth": "two atoms",
+      "answer": "Two atoms of the element oxygen combine to form dioxygen [2].",
+      "rewritten_query": "How many atoms combine to form a dioxygen molecule?",
+      "multi_queries": [
+        "How many atoms combine to form dioxygen?",
+        "Number of atoms in a dioxygen molecule",
+        "Atomic composition of dioxygen",
+        "What is the molecular structure of dioxygen in terms of atom count?"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.3076923076923077,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.010877847671509
+    },
+    {
+      "question": "Roughly, how much oxygen makes up the Earth crust?",
+      "ground_truth": "almost half",
+      "answer": "Based on the provided context, oxygen makes up approximately **49.2% of the Earth's crust by mass** [2]. Additionally, it is mentioned that oxygen constitutes **almost half of the crust's mass** [1].",
+      "rewritten_query": "What percentage or proportion of the Earth's crust is composed of oxygen?",
+      "multi_queries": [
+        "Roughly, how much oxygen makes up the Earth crust?",
+        "How much of the Earth's crust is made up of oxygen by mass or volume?",
+        "What is the approximate percentage of oxygen in the composition of the Earth's crust?",
+        "Which element is most abundant in the Earth's crust and what is its percentage?"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.12121212121212122,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.197703838348389
+    },
+    {
+      "question": "What is the atomic number of the element oxygen?",
+      "ground_truth": "8",
+      "answer": "The atomic number of the element oxygen is **8** [1].",
+      "rewritten_query": "What is the atomic number of the element oxygen?",
+      "multi_queries": [
+        "What is the atomic number of the element oxygen?",
+        "Find the atomic number of oxygen",
+        "What is oxygen's atomic number?",
+        "Retrieve the atomic number for the chemical element oxygen"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.18181818181818182,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.997851848602295
+    },
+    {
+      "question": "Of what group in the periodic table is oxygen a member?",
+      "ground_truth": "chalcogen",
+      "answer": "Oxygen is a member of the **chalcogen group** on the periodic table [1].",
+      "rewritten_query": "Which group in the periodic table does oxygen belong to?",
+      "multi_queries": [
+        "Of what group in the periodic table is oxygen a member?",
+        "What is the group number of oxygen in the periodic table?",
+        "To which group in the periodic table is oxygen assigned?"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.14285714285714288,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.352867126464844
+    },
+    {
+      "question": "What type of compounds does oxygen most commonly form?",
+      "ground_truth": "oxides",
+      "answer": "Based on the provided context, oxygen most commonly forms **oxides** with most elements [1][5]. Specifically, it readily forms compounds such as oxides, including a thin film of oxide on metals like aluminum and titanium [5].",
+      "rewritten_query": "What types of compounds does oxygen most commonly form?",
+      "multi_queries": [
+        "What type of compounds does oxygen most commonly form?",
+        "Common compounds formed by oxygen",
+        "What are the typical chemical compounds that oxygen creates?",
+        "Which chemical substances does oxygen frequently combine with to form compounds?"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.05555555555555556,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.118739366531372
+    },
+    {
+      "question": "Compared to other elements, how abundant does oxygen rank?",
+      "ground_truth": "third",
+      "answer": "Based on the provided context:\n\n- Oxygen is the **third-most abundant element in the universe** by mass, after hydrogen and helium [1][3].\n- Oxygen is the **most abundant element by mass in the Earth's biosphere, air, sea, land, and crust** [1][2].\n- In the Earth's atmosphere, oxygen gas (O\u2082) is the **second-most common component** by volume and mass [1][2].",
+      "rewritten_query": "How does the abundance of oxygen rank compared to other elements?",
+      "multi_queries": [
+        "Compared to other elements, how abundant does oxygen rank?",
+        "What is the ranking of oxygen in terms of abundance among all elements?",
+        "How abundant is oxygen relative to other elements in the universe or Earth's crust?"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 133.14617085456848
+    },
+    {
+      "question": "Under normal conditions, what do two atoms of oxygen form?",
+      "ground_truth": "dioxygen",
+      "answer": "Under normal conditions (standard temperature and pressure), two atoms of oxygen bind to form **dioxygen**, a colorless and odorless diatomic gas with the formula **O\u2082** [2].",
+      "rewritten_query": "What molecule is formed by two oxygen atoms under normal conditions?",
+      "multi_queries": [
+        "Under normal conditions, what do two atoms of oxygen form?",
+        "What is the result of combining two oxygen atoms in standard conditions?",
+        "Which diatomic molecule consists of two oxygen atoms?"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.07407407407407407,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.299454927444458
+    },
+    {
+      "question": "What is European Union Law?",
+      "ground_truth": "a body of treaties and legislation",
+      "answer": "European Union (EU) law is a body of treaties and legislation, such as **Regulations** and **Directives**, that have direct or indirect effect on the laws of EU member states.\n\nIt consists of three main sources:\n1. **Primary law** \u2013 primarily the Treaties establishing the EU.\n2. **Secondary law** \u2013 regulations and directives based on the Treaties.\n3. **Supplementary law** \u2013 which includes general principles developed by the European Court of Justice (e.g., fundamental rights, proportionality, legal certainty, equality before the law, and subsidiarity) [1][2][3].\n\nEU law is applied by the courts of member states and the **Court of Justice of the European Union** [5].",
+      "rewritten_query": "What is European Union Law?",
+      "multi_queries": [
+        "What is European Union Law?",
+        "Explain the fundamentals of European Union Law",
+        "What are the key principles and sources of European Union Law?",
+        "Provide an overview of the legal framework governing the European Union"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.11214953271028036,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 11.64011287689209
+    },
+    {
+      "question": "What are the main sources of primary law?",
+      "ground_truth": "Treaties establishing the European Union",
+      "answer": "The main sources of primary law in the European Union are the Treaties establishing the European Union, specifically the **Treaty on European Union (TEU)** and the **Treaty on the Functioning of the European Union (TFEU)** [1][4][5].",
+      "rewritten_query": "What are the main sources of primary law in legal systems?",
+      "multi_queries": [
+        "What are the main sources of primary law?",
+        "List the primary sources of law in a legal framework",
+        "What constitutes primary law in legal contexts?",
+        "Identify the key sources of primary legal authority"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.24390243902439027,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 11.081072330474854
+    },
+    {
+      "question": "What are the secondary sources of primary law?",
+      "ground_truth": "regulations and directives",
+      "answer": "Based on the provided context, the question contains a misunderstanding. The context defines **secondary sources of European Union law** (not \"secondary sources of primary law\").\n\nThe secondary sources of **European Union law** include regulations and directives, which are based on the Treaties (primary law) [1]. There is no mention of \"secondary sources of primary law\" in the provided documents.",
+      "rewritten_query": "What are the secondary sources of primary law in legal research?",
+      "multi_queries": [
+        "What are the secondary sources of primary law?",
+        "List and explain the secondary sources that support primary law in legal studies",
+        "What types of secondary sources are used to interpret or supplement primary legal sources?",
+        "How do secondary sources relate to primary law in the context of legal research?"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0967741935483871,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 10.232450008392334
+    },
+    {
+      "question": "What are the two bodies that make up the European Union's legislature?",
+      "ground_truth": "European Parliament and the Council of the European Union",
+      "answer": "The two bodies that make up the European Union's legislature are the **European Parliament** and the **Council of the European Union** [5].",
+      "rewritten_query": "What are the two legislative bodies that make up the European Union's legislature?",
+      "multi_queries": [
+        "What are the two bodies that make up the European Union's legislature?",
+        "Which two institutions form the legislative branch of the European Union?",
+        "Name the two main bodies of the EU's legislative system."
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.5806451612903226,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.033535957336426
+    },
+    {
+      "question": "What is European Union law?",
+      "ground_truth": "a body of treaties and legislation",
+      "answer": "European Union law is a body of treaties and legislation, such as Regulations and Directives, that have direct or indirect effect on the laws of European Union member states. It consists of three main sources:\n\n1. **Primary law** \u2013 Mainly the founding treaties, including the Treaty on European Union (TEU) and the Treaty on the Functioning of the European Union (TFEU) [1][3][5].\n2. **Secondary law** \u2013 Regulations and Directives based on the Treaties [1].\n3. **Supplementary law** \u2013 Includes principles developed by the European Court of Justice, which are unwritten rules affecting the interpretation and application of EU law [2].\n\nThe Treaties establish the EU's governance structure, define institutional powers, and determine competences between the EU and its member states [3][5]. EU law is enforced by national courts and the Court of Justice of the European Union [4].",
+      "rewritten_query": "What is European Union law?",
+      "multi_queries": [
+        "What is European Union law?",
+        "Explain the legal framework and principles of European Union law",
+        "What are the key components and sources of EU law?",
+        "How does European Union law function and what are its main characteristics?"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0851063829787234,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 42.49930787086487
+    },
+    {
+      "question": "What effect does European Union law have on laws of member states?",
+      "ground_truth": "direct effect or indirect effect",
+      "answer": "Based on the provided context:\n\n1. **Primacy of EU Law**: European Union law takes primacy over national law where this is agreed in the Treaties [4].\n2. **Direct and Indirect Effect**: EU law, such as Regulations and Directives, can have direct or indirect effect on the laws of member states [2].\n3. **Enforcement**: Where member states' laws provide for lesser rights, EU law can be enforced by the courts of member states [1].\n4. **Transposition of Directives**: Member states are required to transpose EU Directives into their national laws. If they fail to do so, the European Commission can take proceedings against the member state [1].\n5. **Limitations on Direct Effect**: Member state courts are not bound to apply EU law if it would impose an obligation on another citizen or corporation where a national rule conflicts [3].\n6. **Judicial Review**: All actions by EU institutions can be subject to judicial review [3].",
+      "rewritten_query": "What is the impact of European Union law on the legal systems of its member states?",
+      "multi_queries": [
+        "What effect does European Union law have on laws of member states?",
+        "How does EU legislation influence national laws in member countries?",
+        "What are the effects of European Union legal frameworks on the domestic laws of its member states?",
+        "In what ways does EU law shape or alter the laws of its member nations?"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.06329113924050632,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 14.624178886413574
+    },
+    {
+      "question": "What are the three sources of European Union law?",
+      "ground_truth": "primary law, secondary law and supplementary law",
+      "answer": "The three sources of European Union law are:\n1. **Primary law** (e.g., the Treaties establishing the European Union) [1][2],\n2. **Secondary law** (e.g., regulations and directives based on the Treaties) [1],\n3. **Supplementary law** (e.g., case law by the Court of Justice, international law, and general principles of EU law) [1][4].",
+      "rewritten_query": "What are the three primary sources of European Union law?",
+      "multi_queries": [
+        "What are the three sources of European Union law?",
+        "List the main sources of EU law",
+        "What are the foundational sources of European Union legal framework?",
+        "Describe the three key sources of law in the European Union"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.24137931034482762,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 11.282648086547852
+    },
+    {
+      "question": "What are the main legislative bodies of the European Union?",
+      "ground_truth": "European Parliament and the Council of the European Union",
+      "answer": "The main legislative bodies of the European Union are:\n\n1. **The European Commission** \u2013 It has the exclusive right to propose legislation (under Article 17(2) of the Treaty on European Union) [4].\n2. **The European Parliament** \u2013 Elected by EU citizens, it participates in the ordinary legislative procedure by amending and approving laws alongside the Council [1][3].\n3. **The Council (of the European Union)** \u2013 Composed of ministers from member states, it negotiates and adopts laws, often alongside the Parliament [1][3][5].\n\nThese three institutions work together under the **ordinary legislative procedure** (defined in TFEU Article 294) to pass most EU laws [3].",
+      "rewritten_query": "What are the main legislative bodies of the European Union?",
+      "multi_queries": [
+        "What are the main legislative bodies of the European Union?",
+        "Which institutions serve as the primary legislative bodies in the European Union?",
+        "Name the key EU institutions responsible for legislation and policy-making.",
+        "What are the main EU institutions involved in the legislative process?"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.16666666666666669,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 12.672260046005249
+    },
+    {
+      "question": "What are the three main sources of European Union law?",
+      "ground_truth": "primary law, secondary law and supplementary law",
+      "answer": "The three main sources of European Union law are:\n\n1. **Primary law** \u2013 mainly the Treaties establishing the European Union [1][2].\n2. **Secondary law** \u2013 including regulations and directives, which are based on the Treaties [1].\n3. **Supplementary law** [1].",
+      "rewritten_query": "What are the three main sources of European Union law?",
+      "multi_queries": [
+        "What are the three main sources of European Union law?",
+        "List the primary sources of EU legislation and legal framework",
+        "What are the foundational legal instruments that constitute European Union law?",
+        "Describe the key components of the EU legal system"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.3111111111111111,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 11.46725606918335
+    },
+    {
+      "question": "What are the main sources of primary law?",
+      "ground_truth": "the Treaties establishing the European Union",
+      "answer": "The main sources of primary law in the European Union are the Treaties establishing the European Union, specifically the **Treaty on European Union (TEU)** and the **Treaty on the Functioning of the European Union (TFEU)** [1][2][4].",
+      "rewritten_query": "What are the main sources of primary law in the legal system?",
+      "multi_queries": [
+        "What are the main sources of primary law?",
+        "List the primary sources of law in a legal jurisdiction",
+        "What constitutes primary law and where can it be found?",
+        "Identify the key sources that form the foundation of primary law"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.2857142857142857,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 133.8561019897461
+    },
+    {
+      "question": "What is the Chinese name for the Yuan dynasty?",
+      "ground_truth": "Yu\u00e1n Ch\u00e1o",
+      "answer": "The Chinese name for the Yuan dynasty is **\u5143\u671d** (pinyin: Yu\u00e1n Ch\u00e1o) [3].\n\nThe official name of the dynasty was **\u5927\u5143** (pinyin: D\u00e0 Yu\u00e1n) [1][2][3].",
+      "rewritten_query": "What is the Chinese name for the Yuan dynasty?",
+      "multi_queries": [
+        "What is the Chinese name for the Yuan dynasty?",
+        "Chinese name of the Yuan dynasty",
+        "Yuan dynasty in Chinese language",
+        "What did the Yuan dynasty call itself in Chinese?"
+      ],
+      "sources": [
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.16,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 11.022403717041016
+    },
+    {
+      "question": "What is the Yuan dynasty's official name?",
+      "ground_truth": "the Great Yuan",
+      "answer": "The Yuan dynasty's official name was the **Great Yuan** (Chinese: \u5927\u5143; pinyin: D\u00e0 Yu\u00e1n) [1][3][4]. In Mongolian, it was referred to as **Dai \u00d6n** or **Yehe Yuan Ulus** [4].",
+      "rewritten_query": "What was the official name of the Yuan dynasty?",
+      "multi_queries": [
+        "What is the Yuan dynasty's official name?",
+        "What was the formal name of the Yuan dynasty in China?",
+        "What did the Yuan dynasty call itself officially?",
+        "What was the official title of the Yuan dynasty during its rule?"
+      ],
+      "sources": [
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.19354838709677416,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 12.306522846221924
+    },
+    {
+      "question": "Who started the Yuan dynasty?",
+      "ground_truth": "Kublai Khan",
+      "answer": "The Yuan dynasty was established by **Kublai Khan** [1][2].\n\nHowever, Kublai Khan placed his grandfather **Genghis Khan** on the imperial records as the official founder of the dynasty with the temple name **Taizu** [1].",
+      "rewritten_query": "Who founded the Yuan dynasty?",
+      "multi_queries": [
+        "Who started the Yuan dynasty?",
+        "What is the origin of the Yuan dynasty?",
+        "Who established the Yuan dynasty in China?"
+      ],
+      "sources": [
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.1111111111111111,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.578279972076416
+    },
+    {
+      "question": "Who led the Mongolian Borjigin clan?",
+      "ground_truth": "Kublai Khan",
+      "answer": "Kublai Khan, leader of the Mongolian Borjigin clan, established the Yuan dynasty [1].",
+      "rewritten_query": "Who led the Mongolian Borjigin clan?",
+      "multi_queries": [
+        "Who led the Mongolian Borjigin clan?",
+        "What were the leaders of the Borjigin clan in Mongolia?",
+        "Who were the prominent leaders of the Borjigin clan during the Mongol Empire?",
+        "Which historical figures were in charge of the Borjigin clan in Mongolia?"
+      ],
+      "sources": [
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "European_Union_law.txt",
+        "Yuan_dynasty.txt",
+        "Scottish_Parliament.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.2666666666666667,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.715271949768066
+    },
+    {
+      "question": "When did Khan formally declare the Yuan dynasty?",
+      "ground_truth": "1271",
+      "answer": "Kublai Khan formally declared the Yuan dynasty in **1271** [4].",
+      "rewritten_query": "When did Khan formally declare the establishment of the Yuan dynasty?",
+      "multi_queries": [
+        "When did Khan formally declare the Yuan dynasty?",
+        "What is the date when the Yuan dynasty was officially declared by Khan?",
+        "When was the Yuan dynasty formally established by Kublai Khan?",
+        "In what year did Kublai Khan officially proclaim the Yuan dynasty?"
+      ],
+      "sources": [
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.18181818181818182,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.691709995269775
+    },
+    {
+      "question": "What non-Chinese empire did the Yuan dynasty succeed?",
+      "ground_truth": "Mongol Empire",
+      "error": "Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+    },
+    {
+      "question": "What dynasty came before the Yuan?",
+      "ground_truth": "Song dynasty",
+      "answer": "Based on the provided context, the dynasty that came before the Yuan dynasty was the **Song dynasty** [1].",
+      "rewritten_query": "Which dynasty preceded the Yuan dynasty in China?",
+      "multi_queries": [
+        "What dynasty came before the Yuan?",
+        "What was the dynasty immediately before the Yuan dynasty in Chinese history?",
+        "Which Chinese dynasty ruled before the Yuan dynasty?",
+        "Name the dynasty that came directly before the Yuan dynasty."
+      ],
+      "sources": [
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.19999999999999998,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.265351057052612
+    },
+    {
+      "question": "What dynasty came after the Yuan?",
+      "ground_truth": "Ming dynasty",
+      "answer": "Based on the provided context, the dynasty that came after the Yuan dynasty was the **Ming dynasty** [1].",
+      "rewritten_query": "Which dynasty succeeded the Yuan dynasty in China?",
+      "multi_queries": [
+        "What dynasty came after the Yuan?",
+        "What was the next ruling dynasty after the Yuan dynasty in Chinese history?",
+        "Which dynasty followed the Mongol-led Yuan dynasty in China?"
+      ],
+      "sources": [
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.19999999999999998,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.62255597114563
+    },
+    {
+      "question": "Who was Kublai Khan's grandfather?",
+      "ground_truth": "Genghis Khan",
+      "answer": "Kublai Khan's grandfather was Genghis Khan [1][3].",
+      "rewritten_query": "Who was the grandfather of Kublai Khan?",
+      "multi_queries": [
+        "Who was Kublai Khan's grandfather?",
+        "What is the name of Kublai Khan's grandfather?",
+        "Kublai Khan's family lineage: who was his grandfather?"
+      ],
+      "sources": [
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.4444444444444445,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.549026012420654
+    },
+    {
+      "question": "When did Khan establish the Great Yuan?",
+      "ground_truth": "1271",
+      "answer": "Kublai Khan established the Great Yuan (Yuan dynasty) in **1271** [2][4].",
+      "rewritten_query": "When was the Great Yuan established by Kublai Khan?",
+      "multi_queries": [
+        "When did Khan establish the Great Yuan?",
+        "What is the founding date of the Great Yuan dynasty by Kublai Khan?",
+        "When did Kublai Khan found the Great Yuan empire?",
+        "In what year was the Great Yuan dynasty established by Kublai Khan?"
+      ],
+      "sources": [
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.16666666666666669,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.465819120407104
+    },
+    {
+      "question": "Where was France's Huguenot population largely centered?",
+      "ground_truth": "the southern and central parts of France",
+      "answer": "Based on the provided context, France's Huguenot population was largely centered in:\n\n- **Alsace in northeast France** [1]\n- **The C\u00e9vennes mountain region in the south** [1][5]",
+      "rewritten_query": "Where was France's Huguenot population largely centered?",
+      "multi_queries": [
+        "Where was France's Huguenot population largely centered?",
+        "What were the primary regions in France where Huguenots were concentrated?",
+        "Which areas in France had the largest Huguenot communities during the 16th and 17th centuries?",
+        "Where did the majority of Huguenots reside in France?"
+      ],
+      "sources": [
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.125,
+      "exact_match": false,
+      "answer_recall": 0.2857142857142857,
+      "latency": 8.91491413116455
+    },
+    {
+      "question": "What was the proportion of Huguenots to Catholics at their peak?",
+      "ground_truth": "about one-eighth the number",
+      "answer": "At their peak, Huguenots numbered about one-eighth the number of French Catholics [1].",
+      "rewritten_query": "What was the proportion of Huguenots to Catholics at the peak of Huguenot population in France?",
+      "multi_queries": [
+        "What was the proportion of Huguenots to Catholics at their peak?",
+        "What was the historical ratio of Huguenots to Catholics in France during the peak of Huguenot influence?",
+        "How many Huguenots were there compared to Catholics in France at the height of the Huguenot population?",
+        "What was the demographic proportion of Huguenots versus Catholics in France during the 16th or 17th century?"
+      ],
+      "sources": [
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.47058823529411764,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.649398803710938
+    },
+    {
+      "question": "When were the Wars of Religion fought?",
+      "ground_truth": "from 1562 to 1598",
+      "answer": "The Wars of Religion were fought intermittently from **1562 to 1598** [1][2].",
+      "rewritten_query": "When were the Wars of Religion fought?",
+      "multi_queries": [
+        "When were the Wars of Religion fought?",
+        "What are the time periods and dates of the Wars of Religion?",
+        "In which centuries did the Wars of Religion occur?",
+        "What historical conflicts are known as the Wars of Religion and when did they take place?"
+      ],
+      "sources": [
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Yuan_dynasty.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.5,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.9588799476623535
+    },
+    {
+      "question": "What treaty ended the Wars of Religion?",
+      "ground_truth": "the Edict of Nantes",
+      "answer": "The Wars of Religion ended with the granting of the **Edict of Nantes** in 1598 [1][2].",
+      "rewritten_query": "What treaty ended the Wars of Religion in Europe?",
+      "multi_queries": [
+        "What treaty ended the Wars of Religion?",
+        "Which treaty concluded the European Wars of Religion?",
+        "Name the peace agreement that ended the religious conflicts in Europe during the 16th and 17th centuries."
+      ],
+      "sources": [
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "European_Union_law.txt",
+        "Imperialism.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.4,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.016463756561279
+    },
+    {
+      "question": "What did this agreement do?",
+      "ground_truth": "granted the Huguenots substantial religious, political and military autonomy",
+      "answer": "Based on the provided context, the question is ambiguous as it does not specify which agreement is being referred to. However, here are the details of the agreements mentioned:\n\n1. The **Agreement on Social Policy** (also known as the \"Social Chapter\") aimed to \"support and complement\" the policies of member states in the European Union [1].\n\n2. The **European Coal and Steel Community (ECSC) agreement** (1951) aimed to prevent Germany from re-establishing dominance in the production of coal and steel. It banned cartels (Article 65) and made provisions for mergers (Article 66) [4].",
+      "rewritten_query": "What were the provisions or effects of the agreement?",
+      "multi_queries": [
+        "What did this agreement do?",
+        "What did the agreement accomplish or change?",
+        "What were the key terms or outcomes of the agreement?"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "Civil_disobedience.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": false,
+      "f1": 0.0392156862745098,
+      "exact_match": false,
+      "answer_recall": 0.2222222222222222,
+      "latency": 9.140098094940186
+    },
+    {
+      "question": "The term Huguenot was originally meant to confer?",
+      "ground_truth": "derision",
+      "error": "Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+    },
+    {
+      "question": "The term may be related to what politician from Switzerland?",
+      "ground_truth": "Besan\u00e7on Hugues",
+      "answer": "The term \"Huguenot\" may be related to the Swiss politician **Besan\u00e7on Hugues** (died 1532) [1][3].",
+      "rewritten_query": "Which politician from Switzerland is associated with the term?",
+      "multi_queries": [
+        "The term may be related to what politician from Switzerland?",
+        "Swiss politician linked to the term",
+        "Politician from Switzerland connected to the term",
+        "Term related to a Swiss politician"
+      ],
+      "sources": [
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Civil_disobedience.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.23529411764705882,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 39.54806089401245
+    },
+    {
+      "question": "What Swiss city was the center of the Calvinist movement?",
+      "ground_truth": "Geneva",
+      "answer": "Geneva was the center of the Calvinist movement [1].",
+      "rewritten_query": "Which Swiss city was the center of the Calvinist movement?",
+      "multi_queries": [
+        "What Swiss city was the center of the Calvinist movement?",
+        "Name the Swiss city that served as the hub for Calvinism.",
+        "Which city in Switzerland was the focal point of the Calvinist Reformation?",
+        "What is the Swiss city associated with John Calvin and the Calvinist movement?"
+      ],
+      "sources": [
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Rhine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.19999999999999998,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.760949850082397
+    },
+    {
+      "question": "What name was given to the plot to usurp power from the French House of Guise?",
+      "ground_truth": "Amboise plot",
+      "answer": "The name given to the plot to usurp power from the French House of Guise was the **Amboise plot of 1560** [1].",
+      "rewritten_query": "What was the name of the plot to overthrow the French House of Guise?",
+      "multi_queries": [
+        "What name was given to the plot to usurp power from the French House of Guise?",
+        "Name of the conspiracy against the House of Guise in France",
+        "What historical plot aimed to remove the House of Guise from power?",
+        "French political plot targeting the House of Guise: what was it called?"
+      ],
+      "sources": [
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Huguenot.txt",
+        "Steam_engine.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.16666666666666669,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.612307786941528
+    },
+    {
+      "question": "When did this attempt take place?",
+      "ground_truth": "1560",
+      "answer": "The attempt by Hizb ut-Tahrir (HT) to take power through a \"bloodless\" coup took place in **1968 and 1969 in Jordan** and in **1974 in Egypt** [1].",
+      "rewritten_query": "When did the attempt take place?",
+      "multi_queries": [
+        "When did this attempt take place?",
+        "What was the date of the attempt?",
+        "When was the attempt made?",
+        "Provide the timeframe of the attempt."
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Oxygen.txt",
+        "Imperialism.txt",
+        "Steam_engine.txt",
+        "Scottish_Parliament.txt"
+      ],
+      "retrieval_hit": false,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 8.885232210159302
+    },
+    {
+      "question": "Along with geothermal and nuclear, what is a notable non-combustion heat source?",
+      "ground_truth": "solar",
+      "answer": "A notable non-combustion heat source for steam engines is **solar power** [1][2].",
+      "rewritten_query": "What are notable non-combustion heat sources besides geothermal and nuclear?",
+      "multi_queries": [
+        "Along with geothermal and nuclear, what is a notable non-combustion heat source?",
+        "List alternative non-combustion heat sources excluding geothermal and nuclear energy",
+        "What other renewable or non-combustion methods generate heat besides geothermal and nuclear power?",
+        "Identify heat sources that do not rely on combustion or nuclear fission/fusion, excluding geothermal"
+      ],
+      "sources": [
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Oxygen.txt",
+        "Steam_engine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.15384615384615385,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.54365587234497
+    },
+    {
+      "question": "What ideal thermodynamic cycle analyzes the process by which steam engines work?",
+      "ground_truth": "Rankine",
+      "answer": "The ideal thermodynamic cycle used to analyze the process by which steam engines work is called the **Rankine cycle** [1][2].",
+      "rewritten_query": "What is the ideal thermodynamic cycle that models the operation of steam engines?",
+      "multi_queries": [
+        "What ideal thermodynamic cycle analyzes the process by which steam engines work?",
+        "Which thermodynamic cycle best represents the working process of steam engines?",
+        "What is the standard thermodynamic cycle used to analyze steam engine efficiency and operation?",
+        "Describe the ideal thermodynamic cycle for steam engines and how it works."
+      ],
+      "sources": [
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.09523809523809523,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.194125175476074
+    },
+    {
+      "question": "In the Rankine cycle, what does water turn into when heated?",
+      "ground_truth": "steam",
+      "answer": "In the Rankine cycle, when water is heated, it transforms into steam [1][2].",
+      "rewritten_query": "In the Rankine cycle, what phase does water transition into when it is heated?",
+      "multi_queries": [
+        "In the Rankine cycle, what does water turn into when heated?",
+        "What is the state change of water during the heating phase of the Rankine cycle?",
+        "In the Rankine cycle process, what does water become after being heated?",
+        "What phase transformation occurs in water when it is heated in the Rankine cycle?"
+      ],
+      "sources": [
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.14285714285714288,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 11.66320514678955
+    },
+    {
+      "question": "At what pressure is water heated in the Rankine cycle?",
+      "ground_truth": "high",
+      "answer": "The provided documents do not specify the exact pressure at which water is heated in the Rankine cycle. They only mention that the boiler operates at a **high pressure** [2]. For a precise pressure value, I don't have enough information in the provided documents to answer this question.",
+      "rewritten_query": "What is the typical pressure range for heating water in the Rankine cycle?",
+      "multi_queries": [
+        "At what pressure is water heated in the Rankine cycle?",
+        "At what pressure levels is water heated in the Rankine cycle process?",
+        "What are the standard pressure conditions for water heating in the Rankine cycle?",
+        "How does pressure affect water heating in the Rankine cycle?"
+      ],
+      "sources": [
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.04081632653061225,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.617852210998535
+    },
+    {
+      "question": "What types of engines are steam engines?",
+      "ground_truth": "external combustion",
+      "answer": "Based on the provided context, steam engines can be categorized into the following types:\n\n1. **Reciprocating piston type steam engines** \u2013 These use pistons to convert steam pressure into mechanical work [1][3].\n2. **Steam turbines** \u2013 These use rotary blades to extract energy from steam and are more efficient for large-scale power generation [2][4].\n3. **Oscillating cylinder steam engines** \u2013 A variant of the simple expansion engine where the cylinder oscillates to control steam flow, often used in models and some ship applications [5].",
+      "rewritten_query": "What are the different types of steam engines?",
+      "multi_queries": [
+        "What types of engines are steam engines?",
+        "Types and classifications of steam engines",
+        "Overview of steam engine categories and varieties",
+        "What are the main kinds of steam engines used historically and today?"
+      ],
+      "sources": [
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 10.223233938217163
+    },
+    {
+      "question": "What was the first true engine that was commercially successful?",
+      "ground_truth": "atmospheric engine",
+      "answer": "The first commercially successful true engine was the **atmospheric engine**, invented by **Thomas Newcomen around 1712** [1][2].",
+      "rewritten_query": "What was the first commercially successful true engine?",
+      "multi_queries": [
+        "What was the first true engine that was commercially successful?",
+        "Which was the first commercially successful true engine in history?",
+        "Name the first true engine that achieved commercial success.",
+        "What engine was the first to be commercially successful?"
+      ],
+      "sources": [
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.21052631578947367,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.902913093566895
+    },
+    {
+      "question": "Who was the inventor of the atmospheric engine?",
+      "ground_truth": "Thomas Newcomen",
+      "answer": "The inventor of the atmospheric engine was **Thomas Newcomen**, around 1712 [1][3].",
+      "rewritten_query": "Who invented the atmospheric engine?",
+      "multi_queries": [
+        "Who was the inventor of the atmospheric engine?",
+        "What is the history of the atmospheric engine and its inventor?",
+        "Name the creator of the early atmospheric engine used in steam technology.",
+        "Which engineer developed the first atmospheric engine?"
+      ],
+      "sources": [
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.2857142857142857,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.129016160964966
+    },
+    {
+      "question": "About what year was the atmospheric engine invented?",
+      "ground_truth": "1712",
+      "answer": "The atmospheric engine was invented around the year **1712** by Thomas Newcomen [1][2].",
+      "rewritten_query": "In what year was the atmospheric engine invented?",
+      "multi_queries": [
+        "About what year was the atmospheric engine invented?",
+        "Year of invention of the atmospheric engine",
+        "When was the first atmospheric engine created?",
+        "Historical year of the atmospheric engine's invention"
+      ],
+      "sources": [
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Oxygen.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.14285714285714288,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 51.44829607009888
+    },
+    {
+      "question": "What was invented by Savery?",
+      "ground_truth": "steam pump",
+      "answer": "Thomas Savery invented a steam pump in 1698. This device used condensing steam to create a vacuum to raise water and then used steam pressure to raise it higher [1][3].",
+      "rewritten_query": "What inventions are attributed to Thomas Savery?",
+      "multi_queries": [
+        "What was invented by Savery?",
+        "Which devices or technologies were created by Thomas Savery?",
+        "What are the notable contributions or inventions of Thomas Savery?"
+      ],
+      "sources": [
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.125,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.01104998588562
+    },
+    {
+      "question": "Who conceptualized the piston?",
+      "ground_truth": "Papin",
+      "answer": "The concept of using a piston in a steam engine was proposed by **Denis Papin**, as mentioned in the context regarding the improvement of Thomas Newcomen's atmospheric engine [1].",
+      "rewritten_query": "Who conceptualized the piston?",
+      "multi_queries": [
+        "Who conceptualized the piston?",
+        "Who invented the piston mechanism?",
+        "What historical figure is credited with designing the piston?",
+        "Who first developed the concept of a piston?"
+      ],
+      "sources": [
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt",
+        "Steam_engine.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.06666666666666667,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.077493906021118
+    },
+    {
+      "question": "The immune system protects organisms against what?",
+      "ground_truth": "disease",
+      "answer": "The immune system protects organisms against **pathogens**, which include a wide variety of agents such as **viruses, bacteria, and parasitic worms** [2]. It also defends against **infections** by preventing pathogens from entering the organism and responding to them if they breach physical barriers [1].",
+      "rewritten_query": "What does the immune system protect organisms against?",
+      "multi_queries": [
+        "The immune system protects organisms against what?",
+        "What are the primary threats the immune system defends against?",
+        "What types of pathogens or dangers does the immune system target?",
+        "What does the body's immune system protect against?"
+      ],
+      "sources": [
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 10.414113998413086
+    },
+    {
+      "question": "What are the agents the immune system detects known as?",
+      "ground_truth": "pathogens",
+      "answer": "The agents the immune system detects are known as **pathogens** [1].",
+      "rewritten_query": "What are the agents that the immune system detects known as?",
+      "multi_queries": [
+        "What are the agents the immune system detects known as?",
+        "What is the name for agents recognized by the immune system?",
+        "What are the targets of the immune system called?",
+        "What are the substances or entities that trigger an immune response called?"
+      ],
+      "sources": [
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.16666666666666669,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.785959005355835
+    },
+    {
+      "question": "Which part of the immune system protects the brain?",
+      "ground_truth": "neuroimmune system",
+      "answer": "The **neuroimmune system** protects the brain, and it is separated from the peripheral immune system by barriers such as the **blood\u2013brain barrier** and the **blood\u2013cerebrospinal fluid barrier** [1].",
+      "rewritten_query": "Which part of the immune system is responsible for protecting the brain?",
+      "multi_queries": [
+        "Which part of the immune system protects the brain?",
+        "What immune components defend the brain from pathogens?",
+        "How does the immune system safeguard the brain?",
+        "Which immune cells or mechanisms protect the central nervous system?"
+      ],
+      "sources": [
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.13333333333333333,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 12.382622957229614
+    },
+    {
+      "question": "What separates the neuroimmune system and peripheral immune system in humans?",
+      "ground_truth": "blood\u2013brain barrier, blood\u2013cerebrospinal fluid barrier",
+      "answer": "In humans, the **blood\u2013brain barrier, blood\u2013cerebrospinal fluid barrier, and similar fluid\u2013brain barriers** separate the **peripheral immune system** from the **neuroimmune system**, which protects the brain [1].",
+      "rewritten_query": "What are the key differences between the neuroimmune system and the peripheral immune system in humans?",
+      "multi_queries": [
+        "What separates the neuroimmune system and peripheral immune system in humans?",
+        "How does the neuroimmune system differ from the peripheral immune system in terms of structure and function?",
+        "What unique roles do the neuroimmune system and peripheral immune system play in human immunity?",
+        "Compare and contrast the neuroimmune system with the peripheral immune system in humans."
+      ],
+      "sources": [
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.32258064516129037,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.37630295753479
+    },
+    {
+      "question": "What are the agents detected by the immune system called?",
+      "ground_truth": "pathogens",
+      "answer": "The agents detected by the immune system are called **pathogens** [1]. These include a wide variety of agents such as viruses and parasitic worms. Additionally, foreign molecules recognized by the immune system are referred to as **antigens** [2].",
+      "rewritten_query": "What are the agents detected by the immune system called?",
+      "multi_queries": [
+        "What are the agents detected by the immune system called?",
+        "What is the name for substances recognized by the immune system?",
+        "What are the targets of the immune system's detection called?",
+        "What are the molecules or entities identified by the immune system known as?"
+      ],
+      "sources": [
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.05128205128205127,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.418008089065552
+    },
+    {
+      "question": "What are the two different types of immunity?",
+      "ground_truth": "humoral immunity versus cell-mediated immunity",
+      "answer": "Based on the provided context, the two different types of immunity mentioned are:\n\n1. **Innate immune system**\n2. **Adaptive immune system** [2]",
+      "rewritten_query": "What are the two different types of immunity?",
+      "multi_queries": [
+        "What are the two different types of immunity?",
+        "List and describe the two main categories of immunity in the human body.",
+        "What are the primary classifications of immunity and their key characteristics?"
+      ],
+      "sources": [
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "European_Union_law.txt",
+        "Immune_system.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.07407407407407407,
+      "exact_match": false,
+      "answer_recall": 0.25,
+      "latency": 7.765033960342407
+    },
+    {
+      "question": "What are the two major subsystems of the immune system?",
+      "ground_truth": "innate immune system versus the adaptive immune system",
+      "answer": "Based on the provided context, the two major subsystems of the immune system are:\n\n1. The **innate immune system**\n2. The **adaptive immune system**\n\nSource: [1]",
+      "rewritten_query": "What are the two major subsystems of the human immune system?",
+      "multi_queries": [
+        "What are the two major subsystems of the immune system?",
+        "Which two primary components make up the human immune system?",
+        "Name the two main divisions of the immune system in humans.",
+        "What are the two key subsystems that comprise the human immune system?"
+      ],
+      "sources": [
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.411764705882353,
+      "exact_match": false,
+      "answer_recall": 0.8333333333333334,
+      "latency": 14.491122007369995
+    },
+    {
+      "question": "What is the immune system of the brained known as?",
+      "ground_truth": "neuroimmune system",
+      "answer": "Based on the provided context, the immune system that protects the brain is referred to as the **neuroimmune system**. This system is separated from the peripheral immune system by barriers such as the blood\u2013brain barrier and blood\u2013cerebrospinal fluid barrier [1].",
+      "rewritten_query": "What is the immune system of the human brain known as?",
+      "multi_queries": [
+        "What is the immune system of the brained known as?",
+        "What is the name of the immune system specific to the brain?",
+        "What is the brain's specialized immune system called?",
+        "What is the term for the immune defense mechanism in the brain?"
+      ],
+      "sources": [
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.09523809523809523,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 40.316755056381226
+    },
+    {
+      "question": "What happens when the immune system less active than normal?",
+      "ground_truth": "Immunodeficiency",
+      "answer": "When the immune system is less active than normal, it results in **immunodeficiency**. This leads to **recurring and life-threatening infections** [1]. Immunodeficiency can occur due to genetic diseases (e.g., severe combined immunodeficiency), acquired conditions (e.g., HIV/AIDS), or the use of immunosuppressive medication [1]. Additionally, immune responses naturally decline with age (immunosenescence) and can be weakened by factors like malnutrition, obesity, alcoholism, or drug use [5].",
+      "rewritten_query": "What are the effects and consequences of a weakened immune system?",
+      "multi_queries": [
+        "What happens when the immune system less active than normal?",
+        "What happens when the immune system is underactive?",
+        "What are the symptoms and risks of a less active immune system?",
+        "How does a weakened immune system affect the body?"
+      ],
+      "sources": [
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.030303030303030307,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.726201295852661
+    },
+    {
+      "question": "What is the term for a hyperactive immune system that attacks normal tissues?",
+      "ground_truth": "autoimmunity",
+      "answer": "The term for a hyperactive immune system that attacks normal tissues is **autoimmunity** [2][3].",
+      "rewritten_query": "What is the medical term for a hyperactive immune system that mistakenly attacks the body's own normal tissues?",
+      "multi_queries": [
+        "What is the term for a hyperactive immune system that attacks normal tissues?",
+        "Define the condition where the immune system overreacts and targets healthy body tissues.",
+        "What autoimmune disorder involves an overactive immune response against normal cells?",
+        "Search for the term describing an immune system that is excessively active and attacks the body's own tissues."
+      ],
+      "sources": [
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt",
+        "Immune_system.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.13333333333333333,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.646116971969604
+    },
+    {
+      "question": "What concept did philosophers in antiquity use to study simple machines?",
+      "ground_truth": "force",
+      "answer": "Philosophers in antiquity used the concept of **force** to study stationary and moving objects and simple machines. [1]",
+      "rewritten_query": "What concept did ancient philosophers use to study simple machines?",
+      "multi_queries": [
+        "What concept did philosophers in antiquity use to study simple machines?",
+        "Ancient philosophical concepts related to simple machines",
+        "How did ancient philosophers analyze simple machines conceptually?",
+        "Philosophical theories from antiquity about simple machines"
+      ],
+      "sources": [
+        "Force.txt",
+        "Force.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.10526315789473684,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.742021083831787
+    },
+    {
+      "question": "What was the belief that maintaining motion required force?",
+      "ground_truth": "fundamental error",
+      "answer": "The belief that a force is required to maintain motion, even at a constant velocity, was a fundamental error in Aristotelian physics [1][3]. Aristotle and other ancient philosophers thought that continued application of a force was necessary to keep an object moving, as seen in everyday experiences like pushing a cart [2]. This idea was later corrected by Galileo Galilei and Sir Isaac Newton [1][3][5].",
+      "rewritten_query": "What is the historical belief that motion requires a continuous force to be maintained?",
+      "multi_queries": [
+        "What was the belief that maintaining motion required force?",
+        "Which historical scientific theory stated that an object in motion needs a constant force to keep moving?",
+        "What was the pre-Newtonian idea about the necessity of force for sustaining motion?"
+      ],
+      "sources": [
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Force.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.059701492537313446,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.62399673461914
+    },
+    {
+      "question": "Who had mathmatical insite?",
+      "ground_truth": "Sir Isaac Newton",
+      "answer": "Based on the provided context, the mathematician **Zhu Shijie (1249\u20131314)** had mathematical insight, particularly in polynomial algebra and solving simultaneous equations with up to four unknowns using a method equivalent to modern matrices [1].",
+      "rewritten_query": "Who had mathematical insight?",
+      "multi_queries": [
+        "Who had mathmatical insite?",
+        "Which individuals are known for their mathematical insights?",
+        "Who are famous for their contributions to mathematical understanding?"
+      ],
+      "sources": [
+        "Yuan_dynasty.txt",
+        "Yuan_dynasty.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt"
+      ],
+      "retrieval_hit": false,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 8.2290518283844
+    },
+    {
+      "question": "How long did it take to improve on Sir Isaac Newton's laws of motion?",
+      "ground_truth": "nearly three hundred years",
+      "answer": "Sir Isaac Newton's laws of motion were not improved upon for nearly three hundred years [1].",
+      "rewritten_query": "How long did it take for scientists to improve upon Sir Isaac Newton's laws of motion?",
+      "multi_queries": [
+        "How long did it take to improve on Sir Isaac Newton's laws of motion?",
+        "What was the timeframe for advancements beyond Newton's laws of motion?",
+        "How long after Newton's laws of motion were they refined or superseded by new theories?",
+        "When did modern physics begin to surpass Newton's laws of motion?"
+      ],
+      "sources": [
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Force.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.4,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.916568994522095
+    },
+    {
+      "question": "Who develped the theory of relativity?",
+      "ground_truth": "Einstein",
+      "answer": "The provided documents do not explicitly state who developed the theory of relativity.\n\nI don't have enough information in the provided documents to answer this question.",
+      "rewritten_query": "Who developed the theory of relativity?",
+      "multi_queries": [
+        "Who develped the theory of relativity?",
+        "Which scientist is credited with creating the theory of relativity?",
+        "What are the names of the physicists behind the development of the theory of relativity?",
+        "Who are the key contributors to the theory of relativity?"
+      ],
+      "sources": [
+        "Force.txt",
+        "Computational_complexity_theory.txt",
+        "Force.txt",
+        "Computational_complexity_theory.txt",
+        "Force.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 7.530332088470459
+    },
+    {
+      "question": "What has partical physics made to describe sub-atomic forces?",
+      "ground_truth": "Standard Model",
+      "answer": "Particle physics has devised the **Standard Model** to describe forces between particles smaller than atoms. According to the Standard Model, forces are mediated by exchanged particles called **gauge bosons** [1].",
+      "rewritten_query": "What contributions has particle physics made to the description of sub-atomic forces?",
+      "multi_queries": [
+        "What has partical physics made to describe sub-atomic forces?",
+        "How has particle physics explained sub-atomic forces?",
+        "What are the key findings of particle physics regarding sub-atomic forces?",
+        "Which theories in particle physics describe sub-atomic forces?"
+      ],
+      "sources": [
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Force.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.125,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 10.634450912475586
+    },
+    {
+      "question": "What are the exchanged particles predicted by the standard Model?",
+      "ground_truth": "gauge bosons",
+      "answer": "The Standard Model predicts that forces between particles are mediated by exchanged particles called **gauge bosons** [1][2].\n\nSpecifically:\n- The **electromagnetic force** is mediated by **photons** [5].\n- The **weak force** is mediated by **W and Z bosons** [2][3].\n- The **strong force** is mediated by **gluons** [1][3].\n\nThe **Higgs boson** is also predicted by the Standard Model but is associated with the Higgs mechanism rather than force mediation [3]. Gravity is not included in the Standard Model.",
+      "rewritten_query": "What are the gauge bosons or force carriers predicted by the Standard Model of particle physics?",
+      "multi_queries": [
+        "What are the exchanged particles predicted by the standard Model?",
+        "Which particles mediate fundamental forces according to the Standard Model?",
+        "List the exchanged particles or force carriers in the Standard Model framework.",
+        "What are the fundamental bosons responsible for interactions in the Standard Model?"
+      ],
+      "sources": [
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Force.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.05194805194805195,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 10.066701173782349
+    },
+    {
+      "question": "What is the strongest main interaction?",
+      "ground_truth": "strong",
+      "answer": "The strongest main interaction is the **strong force** (also known as the strong nuclear force) [1][2]. It is the most powerful of the four fundamental interactions, followed by electromagnetic, weak, and gravitational forces [1][2].",
+      "rewritten_query": "What is the strongest main interaction in the game?",
+      "multi_queries": [
+        "What is the strongest main interaction?",
+        "Which interaction is considered the most powerful in the game?",
+        "What is the primary strong interaction mechanic in the game?",
+        "How does the game define the strongest main interaction?"
+      ],
+      "sources": [
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Computational_complexity_theory.txt",
+        "Force.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.05714285714285715,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.697670221328735
+    },
+    {
+      "question": "What is the weakest main interaction?",
+      "ground_truth": "gravitational",
+      "answer": "The weakest main interaction is the gravitational force [1][3]. It is listed last in the order of decreasing strength: strong, electromagnetic, weak, and gravitational [1][3].",
+      "rewritten_query": "What is the weakest main interaction in the context of the game?",
+      "multi_queries": [
+        "What is the weakest main interaction?",
+        "Which main interaction in the game is considered the weakest?",
+        "What are the weakest main interactions available in the game?",
+        "Can you identify the main interaction with the lowest effectiveness in the game?"
+      ],
+      "sources": [
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "European_Union_law.txt",
+        "Force.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.07692307692307693,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.220827102661133
+    },
+    {
+      "question": "What are weak and electromatic forces expressions of?",
+      "ground_truth": "electroweak interaction",
+      "answer": "The weak and electromagnetic forces are expressions of a more fundamental **electroweak interaction** [1][4].",
+      "rewritten_query": "What are weak and electromagnetic forces expressions of?",
+      "multi_queries": [
+        "What are weak and electromatic forces expressions of?",
+        "What fundamental forces do weak and electromagnetic forces represent?",
+        "What unified theory describes weak and electromagnetic forces?",
+        "What are the expressions of weak and electromagnetic interactions in physics?"
+      ],
+      "sources": [
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Force.txt",
+        "Force.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.25,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.131654024124146
+    },
+    {
+      "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+      "ground_truth": "Computational complexity theory",
+      "answer": "The branch of theoretical computer science that deals with broadly classifying computational problems according to their inherent difficulty and relating those classes to each other is **computational complexity theory** [1].",
+      "rewritten_query": "Which branch of theoretical computer science focuses on classifying computational problems by their difficulty and relationships?",
+      "multi_queries": [
+        "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "What is the field in theoretical computer science that categorizes computational problems based on complexity and interrelationships?",
+        "Which area of theoretical computer science studies the classification of computational problems by their difficulty and equivalence classes?"
+      ],
+      "sources": [
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.18181818181818182,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.17889928817749
+    },
+    {
+      "question": "By what main attribute are computational problems classified utilizing computational complexity theory? ",
+      "ground_truth": "inherent difficulty",
+      "answer": "I don't have enough information in the provided documents to answer this question. The context provided does not discuss computational complexity theory or the classification of computational problems.",
+      "rewritten_query": "By what main attribute are computational problems classified in computational complexity theory?",
+      "multi_queries": [
+        "By what main attribute are computational problems classified utilizing computational complexity theory? ",
+        "What is the primary criterion used to categorize computational problems in computational complexity theory?",
+        "How does computational complexity theory classify computational problems based on their main characteristics?",
+        "What key attribute defines the classification of computational problems in computational complexity theory?"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": false,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 12.004552125930786
+    },
+    {
+      "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+      "ground_truth": "computational problems",
+      "answer": "The context provided does not contain information about a specific term for a task that generally lends itself to being solved by a computer.\n\nI don't have enough information in the provided documents to answer this question.",
+      "rewritten_query": "What is the term for a task that is typically suitable for computer automation?",
+      "multi_queries": [
+        "What is the term for a task that generally lends itself to being solved by a computer?",
+        "What is the name for problems or tasks that computers are well-suited to solve?",
+        "Define the concept of a task that can be efficiently performed by a computer.",
+        "What term describes activities that are commonly automated using computers?"
+      ],
+      "sources": [
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": false,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 13.83550214767456
+    },
+    {
+      "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+      "ground_truth": "if its solution requires significant resources",
+      "answer": "I don't have enough information in the provided documents to answer this question. The context does not discuss computational problems or their inherent difficulty.",
+      "rewritten_query": "What measure broadly defines the inherent difficulty of solving a computational problem?",
+      "multi_queries": [
+        "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "What metric is used to quantify the inherent complexity or difficulty of a computational problem?",
+        "What term describes the fundamental measure of how hard a computational problem is to solve?",
+        "What concept in computer science represents the inherent difficulty level of a computational problem?"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": false,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 11.73299789428711
+    },
+    {
+      "question": "What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?",
+      "ground_truth": "mathematical models of computation",
+      "answer": "I don't have enough information in the provided documents to answer this question. The context does not mention methods for assessing or quantifying resources required to solve computational problems.",
+      "rewritten_query": "What method is used to intuitively assess or quantify the computational resources required to solve a problem?",
+      "multi_queries": [
+        "What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?",
+        "How to measure or estimate the computational resources needed for a problem?",
+        "What techniques exist to intuitively evaluate the resource complexity of an algorithm?",
+        "Methods for quantifying the time and space complexity of computational problems"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Economic_inequality.txt",
+        "Economic_inequality.txt"
+      ],
+      "retrieval_hit": false,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 11.354187965393066
+    },
+    {
+      "question": "What are two basic primary resources used to guage complexity?",
+      "ground_truth": "time and storage",
+      "answer": "I don't have enough information in the provided documents to answer this question. The context does not mention any primary resources used to gauge complexity.",
+      "rewritten_query": "What are two basic primary resources used to gauge complexity?",
+      "multi_queries": [
+        "What are two basic primary resources used to guage complexity?",
+        "List two fundamental primary sources for assessing complexity",
+        "Name two key primary resources for measuring complexity",
+        "What primary resources are commonly used to evaluate complexity?"
+      ],
+      "sources": [
+        "European_Union_law.txt",
+        "Oxygen.txt",
+        "European_Union_law.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": false,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 10.760241031646729
+    },
+    {
+      "question": "What unit is measured to determine circuit complexity?",
+      "ground_truth": "number of gates in a circuit",
+      "answer": "I don't have enough information in the provided documents to answer this question. The context does not mention circuit complexity or its measurement units.",
+      "rewritten_query": "What unit is used to measure circuit complexity?",
+      "multi_queries": [
+        "What unit is measured to determine circuit complexity?",
+        "How is circuit complexity quantified in electronics?",
+        "What metric determines the complexity of an electronic circuit?"
+      ],
+      "sources": [
+        "Oxygen.txt",
+        "Steam_engine.txt",
+        "Oxygen.txt",
+        "Oxygen.txt",
+        "Oxygen.txt"
+      ],
+      "retrieval_hit": false,
+      "f1": 0.13333333333333333,
+      "exact_match": false,
+      "answer_recall": 0.3333333333333333,
+      "latency": 14.899866819381714
+    },
+    {
+      "question": "What practical role does defining the complexity of problems play in everyday computing?",
+      "ground_truth": "determine the practical limits on what computers can and cannot do",
+      "answer": "Based on the provided context, defining the complexity of problems in computational complexity theory helps determine the **practical limits on what computers can and cannot do** by quantifying the resources (such as time, storage, or processing power) required to solve them. This allows for understanding which problems are inherently difficult and may not be feasible to solve efficiently with current technology [1][2][3].",
+      "rewritten_query": "What is the practical role of defining problem complexity in everyday computing tasks?",
+      "multi_queries": [
+        "What practical role does defining the complexity of problems play in everyday computing?",
+        "How does determining the complexity of problems impact real-world computing applications?",
+        "Why is it important to assess problem complexity in daily computing operations?",
+        "What are the benefits of defining problem complexity for practical computing scenarios?"
+      ],
+      "sources": [
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.3013698630136986,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 12.612798929214478
+    },
+    {
+      "question": "What two fields of theoretical computer science closely mirror computational complexity theory?",
+      "ground_truth": "analysis of algorithms and computability theory",
+      "answer": "Based on the provided context, the two fields of theoretical computer science closely related to computational complexity theory are:\n\n1. **Analysis of algorithms** [1]\n2. **Computability theory** [1][4]",
+      "rewritten_query": "Which two fields of theoretical computer science closely mirror computational complexity theory?",
+      "multi_queries": [
+        "What two fields of theoretical computer science closely mirror computational complexity theory?",
+        "What are the two fields in theoretical computer science that are most similar to computational complexity theory?",
+        "Name two areas within theoretical computer science that overlap significantly with computational complexity theory."
+      ],
+      "sources": [
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.29411764705882354,
+      "exact_match": false,
+      "answer_recall": 0.8333333333333334,
+      "latency": 9.992300987243652
+    },
+    {
+      "question": "What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?",
+      "ground_truth": "analysis of algorithms",
+      "answer": "The field of computer science that analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem is **analysis of algorithms** [2].\n\nThe key distinction is that analysis of algorithms focuses on the resources (e.g., time, space) needed by a *particular algorithm*, rather than studying all possible algorithms for a problem [2].",
+      "rewritten_query": "Which field of computer science studies the resource requirements of an algorithm in isolation for a given problem?",
+      "multi_queries": [
+        "What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?",
+        "What computer science discipline focuses on analyzing the computational resources needed by an algorithm independently of external factors?",
+        "In computer science, what is the name of the field that examines the resource consumption (time, space) of an algorithm in a standalone context?"
+      ],
+      "sources": [
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt",
+        "Computational_complexity_theory.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.10169491525423728,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.896114826202393
+    },
+    {
+      "question": "What is it called when people in society rebel against laws they think are unfair?",
+      "ground_truth": "Civil disobedience",
+      "answer": "Based on the provided context, when people in society rebel against laws they deem unfair, it is called **civil disobedience** [4]. This term refers to nonviolent resistance movements aimed at challenging unjust laws or policies [4].",
+      "rewritten_query": "What is the term for societal rebellion against perceived unjust laws?",
+      "multi_queries": [
+        "What is it called when people in society rebel against laws they think are unfair?",
+        "What do you call collective resistance to unfair legal systems?",
+        "What is the name for public defiance of laws deemed oppressive?",
+        "What term describes when communities protest or disobey laws they consider unjust?"
+      ],
+      "sources": [
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.10526315789473684,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 12.022995948791504
+    },
+    {
+      "question": "What is an example of major civil disobedience in South Africa?",
+      "ground_truth": "apartheid",
+      "answer": "An example of major civil disobedience in South Africa is the fight against apartheid [1][2].",
+      "rewritten_query": "What are examples of major civil disobedience movements in South Africa?",
+      "multi_queries": [
+        "What is an example of major civil disobedience in South Africa?",
+        "Historical instances of civil disobedience in South Africa during apartheid",
+        "Famous civil disobedience campaigns in South Africa's history",
+        "Key events of nonviolent resistance in South Africa"
+      ],
+      "sources": [
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.125,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.072649002075195
+    },
+    {
+      "question": "What was the the movement called that brought Baltic countries independence from the Soviet Union?",
+      "ground_truth": "Singing Revolution",
+      "answer": "The movement that brought independence to the Baltic countries from the Soviet Union was called the **Singing Revolution** [1].",
+      "rewritten_query": "What was the name of the movement that led to the independence of the Baltic countries from the Soviet Union?",
+      "multi_queries": [
+        "What was the the movement called that brought Baltic countries independence from the Soviet Union?",
+        "Name the independence movement of Baltic states from Soviet rule",
+        "What historical movement resulted in the Baltic countries gaining sovereignty from the USSR?",
+        "Which movement facilitated the separation of Estonia, Latvia, and Lithuania from the Soviet Union?"
+      ],
+      "sources": [
+        "Civil_disobedience.txt",
+        "Imperialism.txt",
+        "Islamism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.1904761904761905,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.619318962097168
+    },
+    {
+      "question": "In 2004 the Orange revolution occurred in what country?",
+      "ground_truth": "Ukraine",
+      "answer": "The 2004 Orange Revolution occurred in Ukraine. [1]",
+      "rewritten_query": "In which country did the Orange Revolution occur in 2004?",
+      "multi_queries": [
+        "In 2004 the Orange revolution occurred in what country?",
+        "Which nation experienced the Orange Revolution in 2004?",
+        "The Orange Revolution took place in 2004 in which country?"
+      ],
+      "sources": [
+        "Civil_disobedience.txt",
+        "Islamism.txt",
+        "Imperialism.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.2222222222222222,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.37922477722168
+    },
+    {
+      "question": "Where was the location of the 2003 Rose revolution?",
+      "ground_truth": "Georgia",
+      "answer": "The 2003 Rose Revolution took place in **Georgia** [1].",
+      "rewritten_query": "Where did the 2003 Rose Revolution take place?",
+      "multi_queries": [
+        "Where was the location of the 2003 Rose revolution?",
+        "What was the location of the 2003 Rose Revolution in Georgia?",
+        "Where did the Rose Revolution of 2003 occur?",
+        "In which city or country did the 2003 Rose Revolution happen?"
+      ],
+      "sources": [
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Imperialism.txt",
+        "Islamism.txt",
+        "Civil_disobedience.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.19999999999999998,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 38.700222969055176
+    },
+    {
+      "question": "Which people brought forward one of the earliest examples of Civil Disobedience?",
+      "ground_truth": "Egyptians",
+      "answer": "One of the earliest massive implementations of civil disobedience was brought forward by Egyptians against the British occupation in the 1919 Revolution [2].",
+      "rewritten_query": "Which historical figures are known for initiating one of the earliest examples of civil disobedience?",
+      "multi_queries": [
+        "Which people brought forward one of the earliest examples of Civil Disobedience?",
+        "Who were the pioneers of civil disobedience in history?",
+        "Identify key individuals who demonstrated civil disobedience in its earliest forms.",
+        "Which people are credited with creating early instances of civil disobedience?"
+      ],
+      "sources": [
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.08333333333333333,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.337113857269287
+    },
+    {
+      "question": "Who was one of the earliest examples of Civil Disobedience against?",
+      "ground_truth": "the British",
+      "answer": "One of the earliest recorded examples of collective civil disobedience was against the **Roman Empire**, where unarmed Jews gathered in the streets to prevent the installation of pagan images in the Temple in Jerusalem [2].",
+      "rewritten_query": "What was one of the earliest examples of civil disobedience against?",
+      "multi_queries": [
+        "Who was one of the earliest examples of Civil Disobedience against?",
+        "Historical instances of civil disobedience and their targets",
+        "Early cases of civil disobedience in history and what they protested against",
+        "Famous early civil disobedience movements and their causes"
+      ],
+      "sources": [
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.05405405405405405,
+      "exact_match": false,
+      "answer_recall": 0.5,
+      "latency": 8.967710971832275
+    },
+    {
+      "question": "Why do people chose civil disobedience to protest?",
+      "ground_truth": "nonviolent resistance",
+      "answer": "Based on the provided context, people choose civil disobedience to protest for the following reasons:\n\n1. To challenge the existence of a particular unjust law directly (direct civil disobedience) or to protest broader injustices by violating unrelated laws (indirect civil disobedience) [1].\n2. To maintain the \"spirit of protest\" and draw attention to injustice, whether by submitting to punishment (e.g., going to jail) or evading it, as a way of continuing the protest [5].\n3. To potentially increase the possibility of changing an unjust law by defending oneself in court, though there is debate about whether pleading guilty or not is more effective [2].\n4. To oppose decisions made by non-governmental entities (e.g., trade unions, banks) if those decisions reflect systemic legal injustices [3].",
+      "rewritten_query": "What are the reasons people choose civil disobedience as a method of protest?",
+      "multi_queries": [
+        "Why do people chose civil disobedience to protest?",
+        "Why do individuals and groups engage in civil disobedience instead of other forms of protest?",
+        "What motivates people to participate in civil disobedience to challenge laws or policies?",
+        "What are the key factors that lead people to use civil disobedience as a protest strategy?"
+      ],
+      "sources": [
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 12.415352821350098
+    },
+    {
+      "question": "What does civil disobedience protest against?",
+      "ground_truth": "unfair laws",
+      "answer": "Based on the provided context, civil disobedience protests against:\n\n1. **Particular laws** (direct civil disobedience) by breaking the law that is the object of protest [1].\n2. **Laws judged \"wrong\" by individual conscience** or to render certain laws ineffective, cause their repeal, or exert political pressure [4].\n3. **Governmental entities** (though some theories argue it can also be justified against non-governmental agencies if it challenges the legal system permitting their decisions) [5].\n4. **Unjust policies or actions**, such as the legality of the Vietnam War (though courts often refused to excuse protesters in such cases) [1].",
+      "rewritten_query": "What is civil disobedience and what does it protest against?",
+      "multi_queries": [
+        "What does civil disobedience protest against?",
+        "What are the main targets or issues that civil disobedience movements oppose?",
+        "Which societal or governmental actions do civil disobedience protests typically challenge?",
+        "What are common causes or injustices that civil disobedience aims to address?"
+      ],
+      "sources": [
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.020408163265306124,
+      "exact_match": false,
+      "answer_recall": 0.5,
+      "latency": 11.249943017959595
+    },
+    {
+      "question": "What civil rights movement in the US was known for it's disobedience?",
+      "ground_truth": "American Civil Rights Movement",
+      "answer": "The provided documents do not explicitly mention a specific civil rights movement in the U.S. known for civil disobedience.\n\nHowever, the context references Gandhi's campaigns in India and other global movements but does not name a U.S.-based civil rights movement [1]. Therefore, **I don't have enough information in the provided documents to answer this question.**",
+      "rewritten_query": "Which civil rights movement in the United States was known for its civil disobedience?",
+      "multi_queries": [
+        "What civil rights movement in the US was known for it's disobedience?"
+      ],
+      "sources": [
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt",
+        "Civil_disobedience.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.10169491525423728,
+      "exact_match": false,
+      "answer_recall": 0.75,
+      "latency": 5.994691848754883
+    },
+    {
+      "question": "What is an Islamic revival movement?",
+      "ground_truth": "Islamism",
+      "answer": "An Islamic revival movement, also known as **Political Islam (Islamism)**, is characterized by **moral conservatism, literalism, and the attempt to implement Islamic values in all spheres of life**. It seeks to reorder government and society in accordance with **Shari'a** [1].",
+      "rewritten_query": "What is an Islamic revival movement?",
+      "multi_queries": [
+        "What is an Islamic revival movement?",
+        "Define Islamic revival movement and its key characteristics",
+        "Explain the concept of Islamic revivalism in history and modern times",
+        "What are the goals and origins of Islamic revivalist movements?"
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.04878048780487806,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 40.92618775367737
+    },
+    {
+      "question": "What aspects of life does Islamism seek to integrate itself into?",
+      "ground_truth": "all spheres of life.",
+      "answer": "Based on the provided context, Islamism seeks to integrate itself into the following aspects of life:\n\n- Legal\n- Social\n- Political\n- Economic\n\nSource: [2]",
+      "rewritten_query": "What areas or aspects of life does Islamism aim to integrate into or influence?",
+      "multi_queries": [
+        "What aspects of life does Islamism seek to integrate itself into?",
+        "In which domains of life does Islamism seek to apply its principles or governance?",
+        "How does Islamism attempt to incorporate itself into various aspects of society?",
+        "What are the key life domains targeted by Islamist movements for ideological or political integration?"
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.15384615384615385,
+      "exact_match": false,
+      "answer_recall": 0.5,
+      "latency": 9.10609221458435
+    },
+    {
+      "question": "What goal does Islamism have when it comes to society and government?",
+      "ground_truth": "reordering",
+      "answer": "Islamism aims to **reorder government and society in accordance with Shari'a** and **implement Islamic values in all spheres of life**, including legal, social, political, and economic domains [1].\n\nIt seeks **Islamization of society**, either through state power (e.g., revolution or invasion) or gradual reform from the bottom up [3].",
+      "rewritten_query": "What are the goals of Islamism regarding society and government?",
+      "multi_queries": [
+        "What goal does Islamism have when it comes to society and government?",
+        "What political and social objectives does Islamism aim to achieve?",
+        "How does Islamism seek to influence or reshape society and governance?",
+        "What are the primary aims of Islamist movements in terms of societal and governmental structures?"
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0,
+      "exact_match": false,
+      "answer_recall": 0.0,
+      "latency": 12.192994832992554
+    },
+    {
+      "question": "What have the two different Islamist movements been described as oscillating between?",
+      "ground_truth": "poles",
+      "answer": "The two different Islamist movements have been described as \"oscillating between two poles\":\n\n1. A strategy of Islamization of society through state power seized by revolution or invasion.\n2. A \"reformist\" pole where Islamists work to Islamize society gradually \"from the bottom up\" [1][4].",
+      "rewritten_query": "What have the two different Islamist movements been described as oscillating between?",
+      "multi_queries": [
+        "What have the two different Islamist movements been described as oscillating between?",
+        "Describe the oscillating nature of the two major Islamist movements",
+        "What are the two Islamist movements characterized by oscillation between?",
+        "How are the two Islamist movements described in terms of their oscillating tendencies?"
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.044444444444444446,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.399784803390503
+    },
+    {
+      "question": "One strategy of Islamization is to seize power by what methods?",
+      "ground_truth": "revolution or invasion",
+      "answer": "One strategy of Islamization is to seize power by **revolution or invasion** [1][2].",
+      "rewritten_query": "What methods are used in strategies of Islamization to seize power?",
+      "multi_queries": [
+        "One strategy of Islamization is to seize power by what methods?",
+        "How do Islamization strategies involve the acquisition of political power?",
+        "What are the tactics employed in Islamization efforts to gain control of governments?",
+        "Which methods are commonly used in Islamization to achieve political dominance?"
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.375,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.48997712135315
+    },
+    {
+      "question": "What process do moderate and reformist Islamists work within the boundaries of?",
+      "ground_truth": "democratic",
+      "answer": "Moderate and reformist Islamists work within the boundaries of the **democratic process** [1]. For example, the Tunisian Ennahda Movement and Jamaat-e-Islami of Pakistan operate within democratic frameworks [1].",
+      "rewritten_query": "What political or ideological processes do moderate and reformist Islamists operate within or adhere to?",
+      "multi_queries": [
+        "What process do moderate and reformist Islamists work within the boundaries of?",
+        "What frameworks or systems do moderate and reformist Islamists follow in their political or social activities?",
+        "What are the boundaries or constraints that moderate and reformist Islamists operate within in their political or ideological approaches?",
+        "How do moderate and reformist Islamists navigate political or ideological systems in their activism or governance?"
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0689655172413793,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.432338953018188
+    },
+    {
+      "question": "Where does Hamas originate?",
+      "ground_truth": "Palestine",
+      "answer": "Hamas originates from the **Muslim Brotherhood in Palestine**. It was formed by the Brotherhood during the **First Palestine Intifada in 1987** as a group devoted to jihad against Israel [1][3].",
+      "rewritten_query": "Where does Hamas originate?",
+      "multi_queries": [
+        "Where does Hamas originate?",
+        "What is the origin of Hamas?",
+        "Where was Hamas founded?",
+        "What is the historical background of Hamas?"
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.06451612903225806,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.231199026107788
+    },
+    {
+      "question": "What is the goal of Islamist groups like Hezbollah and Hamas?",
+      "ground_truth": "abolish the state of Israel",
+      "answer": "Based on the provided context, Islamist groups like Hezbollah in Lebanon and Hamas in Palestine have the following goals:\n\n1. They participate in the democratic and political process.\n2. They engage in armed attacks.\n3. They seek to abolish the state of Israel [1][3].",
+      "rewritten_query": "What are the primary goals of Islamist militant groups such as Hezbollah and Hamas?",
+      "multi_queries": [
+        "What is the goal of Islamist groups like Hezbollah and Hamas?",
+        "What ideological and political objectives do Hezbollah and Hamas pursue as Islamist organizations?",
+        "What are the stated goals of Hezbollah and Hamas in their respective conflicts?",
+        "How do the goals of Islamist groups like Hezbollah and Hamas differ from other political or religious movements?"
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.20408163265306123,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 39.91296100616455
+    },
+    {
+      "question": "What do radical Islamist organizations reject entirely?",
+      "ground_truth": "democracy",
+      "answer": "Radical Islamist organizations like al-Qaeda, the Egyptian Islamic Jihad, and the Taliban **entirely reject democracy**, often declaring as *kuffar* (non-believers) those Muslims who support it [1].",
+      "rewritten_query": "What do radical Islamist organizations reject entirely?",
+      "multi_queries": [
+        "What do radical Islamist organizations reject entirely?",
+        "What are the core beliefs or principles that radical Islamist groups completely oppose?",
+        "Which ideologies or practices are universally rejected by radical Islamist organizations?",
+        "What fundamental tenets do radical Islamist factions refuse to accept?"
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.07407407407407407,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 10.139277935028076
+    },
+    {
+      "question": "On what basis do the radical Islamist organizations conduct their attacks?",
+      "ground_truth": "religious",
+      "answer": "Radical Islamist organizations like al-Qaeda and the Egyptian Islamic Jihad conduct their attacks **on a religious basis**, often calling for violent or offensive jihad [1].",
+      "rewritten_query": "What are the motivations or reasons behind the attacks conducted by radical Islamist organizations?",
+      "multi_queries": [
+        "On what basis do the radical Islamist organizations conduct their attacks?",
+        "What factors drive radical Islamist groups to carry out violent attacks?",
+        "What ideological or strategic justifications do radical Islamist organizations use for their attacks?",
+        "What are the primary causes or grievances that lead radical Islamist groups to conduct terrorist attacks?"
+      ],
+      "sources": [
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt",
+        "Islamism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.07692307692307693,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 39.928932189941406
+    },
+    {
+      "question": "When was the current parliament of Scotland convened?",
+      "ground_truth": "Following a referendum in 1997",
+      "answer": "The current Parliament of Scotland was convened by the **Scotland Act 1998**, following a referendum in 1997. Its first meeting took place on **12 May 1999** [1][2].",
+      "rewritten_query": "When was the current Scottish Parliament convened?",
+      "multi_queries": [
+        "When was the current parliament of Scotland convened?",
+        "What is the start date of the current session of the Scottish Parliament?",
+        "When did the most recent Scottish Parliament begin its term?",
+        "Find the date when the current Scottish Parliament was first convened."
+      ],
+      "sources": [
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.3125,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.356438159942627
+    },
+    {
+      "question": "What act set out the Parliament's powers as a devolved legislature?",
+      "ground_truth": "Scotland Act 1998",
+      "error": "Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+    },
+    {
+      "question": "The legislative competence of the Parliament species what areas?",
+      "ground_truth": "in which it can make laws",
+      "answer": "The legislative competence of the **Scottish Parliament** specifies the areas in which it can make laws\u2014namely, **all areas that are not explicitly reserved to the UK Parliament (Westminster)** [1][2].\n\nReserved matters (where the Scottish Parliament *cannot* legislate) include:\n- Abortion\n- Broadcasting policy\n- Civil service\n- Common markets for UK goods and services\n- Constitution\n- Energy (electricity, coal, oil, gas, nuclear)\n- Defence and national security\n- Drug policy\n*(and other areas listed in [4])* [4].",
+      "rewritten_query": "What areas does the legislative competence of the Parliament specify?",
+      "multi_queries": [
+        "The legislative competence of the Parliament species what areas?",
+        "Which policy areas fall under the Parliament's legislative authority?",
+        "What are the specified domains of the Parliament's legislative power?",
+        "In what areas does the Parliament have the authority to legislate?"
+      ],
+      "sources": [
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "European_Union_law.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.13157894736842105,
+      "exact_match": false,
+      "answer_recall": 0.8333333333333334,
+      "latency": 40.61181306838989
+    },
+    {
+      "question": "To what body are certain powers explicitly specified as being reserved for?",
+      "ground_truth": "Parliament of the United Kingdom",
+      "answer": "Certain powers are explicitly specified as being reserved to the **Parliament of the United Kingdom** (Westminster) [1][2]. The Scottish Parliament cannot legislate on these reserved matters [2].",
+      "rewritten_query": "Which body is explicitly specified as having reserved powers?",
+      "multi_queries": [
+        "To what body are certain powers explicitly specified as being reserved for?",
+        "What governmental body holds explicitly reserved powers according to legal or constitutional texts?",
+        "Which entity is granted reserved powers in official documents or constitutions?",
+        "Where are reserved powers explicitly assigned in legal frameworks?"
+      ],
+      "sources": [
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "European_Union_law.txt",
+        "Scottish_Parliament.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.3125,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.393899202346802
+    },
+    {
+      "question": "The Scottish Parliament may legislate as it pleases as long as the powers aren't already reserved by where?",
+      "ground_truth": "Westminster",
+      "answer": "The Scottish Parliament may legislate as it pleases as long as the powers aren't already reserved by the **Parliament of the United Kingdom (Westminster)** [1][2][4]. Specifically, the Scotland Act 1998 explicitly reserves certain matters to the UK Parliament [2][4].",
+      "rewritten_query": "What powers are reserved to the UK Parliament that prevent the Scottish Parliament from legislating freely?",
+      "multi_queries": [
+        "The Scottish Parliament may legislate as it pleases as long as the powers aren't already reserved by where?",
+        "Which powers are not devolved to Scotland, restricting the Scottish Parliament's legislative authority?",
+        "What are the reserved matters that limit the Scottish Parliament's ability to pass laws independently?",
+        "Under the UK's constitutional framework, what powers remain with the UK Parliament and cannot be legislated on by the Scottish Parliament?"
+      ],
+      "sources": [
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.05,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.832621097564697
+    },
+    {
+      "question": "What remained an important issue in Scottish national identity for many years?",
+      "ground_truth": "lack of a Parliament of Scotland",
+      "error": "Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+    },
+    {
+      "question": "How many hundred of years was Scotland directly governed by the parliament of Great Britain?",
+      "ground_truth": "three hundred",
+      "answer": "Scotland was directly governed by the Parliament of Great Britain for **three hundred years** [1].",
+      "rewritten_query": "How many centuries was Scotland directly governed by the Parliament of Great Britain?",
+      "multi_queries": [
+        "How many hundred of years was Scotland directly governed by the parliament of Great Britain?",
+        "Duration of Scotland's governance under the Parliament of Great Britain in centuries",
+        "Number of centuries Scotland was under the rule of the Great Britain Parliament",
+        "How long in centuries did Scotland remain under the governance of the Parliament of Great Britain?"
+      ],
+      "sources": [
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.23529411764705882,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 13.992438077926636
+    },
+    {
+      "question": "Why were the initial suggestions for a devolved parliament before 1914 shelved?",
+      "ground_truth": "First World War.",
+      "answer": "The initial suggestions for a devolved parliament before 1914 were shelved due to the outbreak of the First World War [1].",
+      "rewritten_query": "Why were the initial proposals for a devolved parliament in the United Kingdom before 1914 abandoned or shelved?",
+      "multi_queries": [
+        "Why were the initial suggestions for a devolved parliament before 1914 shelved?",
+        "What were the reasons for the failure or postponement of devolved parliament proposals in the UK prior to 1914?",
+        "Why did early plans for a devolved parliament in the UK before World War I not come to fruition?"
+      ],
+      "sources": [
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.25,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.360465049743652
+    },
+    {
+      "question": "When was there a sharp rise in nationalism in Scotland?",
+      "ground_truth": "the late 1960s",
+      "answer": "There was a sharp rise in nationalism in Scotland during the late 1960s [1][3].",
+      "rewritten_query": "When did Scotland experience a sharp rise in nationalism?",
+      "multi_queries": [
+        "When was there a sharp rise in nationalism in Scotland?",
+        "What were the key periods of increased nationalism in Scotland?",
+        "When did Scottish nationalism see a significant surge?",
+        "What historical events led to a sharp rise in Scottish nationalism?"
+      ],
+      "sources": [
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.35294117647058826,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.800561904907227
+    },
+    {
+      "question": "What did Kllbrandon's report in 1973 recommend establishing?",
+      "ground_truth": "directly elected Scottish Assembly",
+      "answer": "Kilbrandon's report in 1973 recommended the establishment of a **directly elected Scottish Assembly** to legislate for the majority of domestic Scottish affairs [1][2].",
+      "rewritten_query": "What did Kllbrandon's report in 1973 recommend establishing?",
+      "multi_queries": [
+        "What did Kllbrandon's report in 1973 recommend establishing?",
+        "What were the recommendations of Kllbrandon's 1973 report regarding establishment?",
+        "What did the 1973 Kllbrandon report suggest should be established?",
+        "What establishment recommendations were made in Kllbrandon's report from 1973?"
+      ],
+      "sources": [
+        "Scottish_Parliament.txt",
+        "Scottish_Parliament.txt",
+        "Economic_inequality.txt",
+        "Imperialism.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.29629629629629634,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.544761896133423
+    },
+    {
+      "question": "The word imperialism has it's origins in which ancient language? ",
+      "ground_truth": "Latin",
+      "answer": "The word \"imperialism\" has its origins in the **Latin** language, from the word *\"imperium\"* [1].",
+      "rewritten_query": "What is the origin language of the word 'imperialism'?",
+      "multi_queries": [
+        "The word imperialism has it's origins in which ancient language? ",
+        "In which ancient language did the term 'imperialism' originate?",
+        "What ancient language is the source of the word 'imperialism'?",
+        "From which ancient language does the word 'imperialism' derive?"
+      ],
+      "sources": [
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.125,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.96508002281189
+    },
+    {
+      "question": "By what means is imperialism usually administered?",
+      "ground_truth": "military force",
+      "answer": "Based on the provided context, imperialism is usually administered through the following means:\n\n1. **Diplomacy or military force** \u2013 Extending a country\u2019s power and influence [2].\n2. **Colonization** \u2013 Taking control of territories [4].\n3. **Use of military force** \u2013 Enforcing dominance through armed power [2, 4].\n4. **\"Othering\"** \u2013 Exercising control based on racial, religious, or cultural stereotypes [2].\n5. **Formal imperialism** \u2013 Physical control or full-fledged colonial rule [1, 2, 5].\n6. **Informal imperialism** \u2013 Less direct rule, such as technological superiority, economic dominance (e.g., enforcing debts), or subtle political influence [1, 2, 5].",
+      "rewritten_query": "What are the typical methods or systems used to administer imperialism?",
+      "multi_queries": [
+        "By what means is imperialism usually administered?",
+        "How is imperialism typically governed or controlled?",
+        "What administrative structures or strategies are commonly employed in imperial systems?"
+      ],
+      "sources": [
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.04347826086956522,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.77631688117981
+    },
+    {
+      "question": "The term imperialism has been applied to western countries, and which eastern county?",
+      "ground_truth": "Japan",
+      "answer": "The term imperialism has been applied to Western countries and **Japan** as an eastern country [1][3].",
+      "rewritten_query": "Which eastern country has been described as imperialist alongside western countries?",
+      "multi_queries": [
+        "The term imperialism has been applied to western countries, and which eastern county?",
+        "Eastern countries accused of imperialism similar to western nations",
+        "Examples of eastern countries labeled as imperialist like western powers",
+        "Which Asian or Eastern nation is considered imperialist alongside Western imperialist states?"
+      ],
+      "sources": [
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.11764705882352941,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.079588890075684
+    },
+    {
+      "question": "Imperialism is responsible for the rapid spread of what?",
+      "ground_truth": "technologies and ideas",
+      "answer": "Imperialism is responsible for the **rapid spread of technologies and ideas** [1].",
+      "rewritten_query": "What are the effects of imperialism on global spread?",
+      "multi_queries": [
+        "Imperialism is responsible for the rapid spread of what?",
+        "Which aspects of culture or technology were rapidly spread due to imperialism?",
+        "How did imperialism contribute to the global dissemination of ideas or systems?",
+        "What phenomena or innovations were accelerated by imperialism?"
+      ],
+      "sources": [
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.4,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.07610535621643
+    },
+    {
+      "question": "Imperialism extends a country's power and what?",
+      "ground_truth": "influence",
+      "answer": "Imperialism extends a country's power and **influence** through diplomacy or military force [1], as well as through colonization, use of military force, or other means [2].",
+      "rewritten_query": "What are the ways imperialism extends a country's power beyond its borders?",
+      "multi_queries": [
+        "Imperialism extends a country's power and what?",
+        "How does imperialism increase a nation's influence and control over other territories?",
+        "What methods do countries use to expand their power through imperialism?",
+        "In what ways does imperialism contribute to a country's global dominance?"
+      ],
+      "sources": [
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.07407407407407407,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.834419965744019
+    },
+    {
+      "question": "colonial rule would be considered what type of imperialism?",
+      "ground_truth": "\"Formal imperialism\"",
+      "answer": "Colonial rule would be considered **\"formal imperialism\"** because it involves \"physical control or full-fledged colonial rule\" [2][4].",
+      "rewritten_query": "What type of imperialism is colonial rule considered to be?",
+      "multi_queries": [
+        "colonial rule would be considered what type of imperialism?",
+        "How is colonial rule classified in terms of imperialism?",
+        "What category of imperialism does colonial rule fall under?",
+        "Define colonial rule as a form of imperialism."
+      ],
+      "sources": [
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.21052631578947367,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 7.7946507930755615
+    },
+    {
+      "question": "imperialism often divides countries by using which technique?",
+      "ground_truth": "othering",
+      "answer": "Imperialism often divides countries by using the technique of **\"othering\"** based on racial, religious, or cultural stereotypes [2]. This involves creating distinctions between the imperial power and the dominated group to justify control.",
+      "rewritten_query": "What techniques does imperialism use to divide countries?",
+      "multi_queries": [
+        "imperialism often divides countries by using which technique?",
+        "Methods imperialism employs to create divisions within countries",
+        "How does imperialism contribute to political or social fragmentation in nations?",
+        "What strategies does imperialism use to exploit or fragment target countries?"
+      ],
+      "sources": [
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.05882352941176471,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 8.950642824172974
+    },
+    {
+      "question": "Informal imperialism is still dominant; however, less what?",
+      "ground_truth": "direct",
+      "answer": "Informal imperialism is still a powerful form of dominance; however, it is less **direct** than formal imperialism [1][2].\n\nIt is also described as less **costly** than taking over territories formally [2].",
+      "rewritten_query": "What are the modern forms or aspects of informal imperialism that are less dominant today?",
+      "multi_queries": [
+        "Informal imperialism is still dominant; however, less what?",
+        "What aspects of informal imperialism have declined in modern times?",
+        "Which elements of informal imperialism are no longer as prevalent in contemporary geopolitics?",
+        "How has the dominance of informal imperialism changed, and what are its less prominent features?"
+      ],
+      "sources": [
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.0625,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 10.038056135177612
+    },
+    {
+      "question": "A forced trade agreement between two countries would be an example of what?",
+      "ground_truth": "\"informal\" imperialism",
+      "answer": "A forced trade agreement between two countries would be an example of **imperialism**, as described in the context where countries agree to uneven trade agreements forcefully [1].",
+      "rewritten_query": "What is an example of a forced trade agreement between two countries?",
+      "multi_queries": [
+        "A forced trade agreement between two countries would be an example of what?",
+        "Can you provide examples of trade agreements that are imposed rather than voluntary?",
+        "What are some instances where trade agreements are forced upon countries?",
+        "Give examples of trade deals that are not mutually agreed upon by the involved nations."
+      ],
+      "sources": [
+        "Imperialism.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt",
+        "European_Union_law.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.06896551724137931,
+      "exact_match": false,
+      "answer_recall": 0.5,
+      "latency": 9.070818901062012
+    },
+    {
+      "question": "colonial rule, or physical occupation of a territory is an example of what kind of imperialism?",
+      "ground_truth": "\"formal\"",
+      "answer": "Colonial rule, or physical occupation of a territory, is an example of **formal imperialism** [1][3][5].",
+      "rewritten_query": "What type of imperialism is exemplified by colonial rule or physical occupation of a territory?",
+      "multi_queries": [
+        "colonial rule, or physical occupation of a territory is an example of what kind of imperialism?",
+        "Examples of imperialism involving direct territorial control or colonial administration",
+        "Types of imperialism characterized by physical occupation or colonial rule",
+        "How is colonial rule or territorial occupation classified in imperialism?"
+      ],
+      "sources": [
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt",
+        "Imperialism.txt"
+      ],
+      "retrieval_hit": true,
+      "f1": 0.125,
+      "exact_match": false,
+      "answer_recall": 1.0,
+      "latency": 9.470333099365234
+    }
+  ]
+}

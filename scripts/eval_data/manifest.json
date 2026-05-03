@@ -1,0 +1,872 @@
+[
+  {
+    "title": "Economic_inequality",
+    "filename": "Economic_inequality.txt",
+    "num_contexts": 44,
+    "total_chars": 37125,
+    "qa_pairs": [
+      {
+        "question": "What percentage of global assets does the richest 1% of people have?",
+        "answer": "40%",
+        "context_snippet": "A study by the World Institute for Development Economics Research at United Nations University repor"
+      },
+      {
+        "question": "According to Oxfam, the 85 richest people have wealth equal to how many average people?",
+        "answer": "about 3.5 billion people",
+        "context_snippet": "A study by the World Institute for Development Economics Research at United Nations University repor"
+      },
+      {
+        "question": "In order to be considered in the top percentile, a person would need to amass how much money each year?",
+        "answer": "$759,900",
+        "context_snippet": "A study by the World Institute for Development Economics Research at United Nations University repor"
+      },
+      {
+        "question": "What has caused Oxfam's findings to be questioned?",
+        "answer": "the methodology used",
+        "context_snippet": "A study by the World Institute for Development Economics Research at United Nations University repor"
+      },
+      {
+        "question": "Why does Oxfam and Credit Suisse believe their findings are being doubted?",
+        "answer": "a diversion",
+        "context_snippet": "A study by the World Institute for Development Economics Research at United Nations University repor"
+      },
+      {
+        "question": "What percent of the global assets in 2000 were owned by just 1% of adults?",
+        "answer": "40%",
+        "context_snippet": "A study by the World Institute for Development Economics Research at United Nations University repor"
+      },
+      {
+        "question": "What do the three richest people in the world posses more of than the lowest 48 nations together?",
+        "answer": "financial assets",
+        "context_snippet": "A study by the World Institute for Development Economics Research at United Nations University repor"
+      },
+      {
+        "question": "How much was the combined wealth of the \"10 Million dollar millionaires\" in 2008?",
+        "answer": "nearly $41 trillion",
+        "context_snippet": "A study by the World Institute for Development Economics Research at United Nations University repor"
+      },
+      {
+        "question": "How much of the global wealth will the wealthiest 1 percent own by 2016?",
+        "answer": "half",
+        "context_snippet": "A study by the World Institute for Development Economics Research at United Nations University repor"
+      },
+      {
+        "question": "Why are there more poor people in the United States and Europe than China?",
+        "answer": "greater tendency to take on debts",
+        "context_snippet": "A study by the World Institute for Development Economics Research at United Nations University repor"
+      }
+    ]
+  },
+  {
+    "title": "Rhine",
+    "filename": "Rhine.txt",
+    "num_contexts": 44,
+    "total_chars": 30576,
+    "qa_pairs": [
+      {
+        "question": "Where does the Rhine empty?",
+        "answer": "North Sea",
+        "context_snippet": "The Rhine (Romansh: Rein, German: Rhein, French: le Rhin, Dutch: Rijn) is a European river that begi"
+      },
+      {
+        "question": "What is the largest city the Rhine runs through? ",
+        "answer": "Cologne, Germany",
+        "context_snippet": "The Rhine (Romansh: Rein, German: Rhein, French: le Rhin, Dutch: Rijn) is a European river that begi"
+      },
+      {
+        "question": "What river is larger than the Rhine?",
+        "answer": "Danube",
+        "context_snippet": "The Rhine (Romansh: Rein, German: Rhein, French: le Rhin, Dutch: Rijn) is a European river that begi"
+      },
+      {
+        "question": "How long is the Rhine?",
+        "answer": "1,230 km (760 mi)",
+        "context_snippet": "The Rhine (Romansh: Rein, German: Rhein, French: le Rhin, Dutch: Rijn) is a European river that begi"
+      },
+      {
+        "question": "Where is the Rhine? ",
+        "answer": "Europe",
+        "context_snippet": "The Rhine (Romansh: Rein, German: Rhein, French: le Rhin, Dutch: Rijn) is a European river that begi"
+      },
+      {
+        "question": "What country does the Rhine empty?",
+        "answer": "Netherlands",
+        "context_snippet": "The Rhine (Romansh: Rein, German: Rhein, French: le Rhin, Dutch: Rijn) is a European river that begi"
+      },
+      {
+        "question": "How long is the Rhine? ",
+        "answer": "1,230 km",
+        "context_snippet": "The Rhine (Romansh: Rein, German: Rhein, French: le Rhin, Dutch: Rijn) is a European river that begi"
+      },
+      {
+        "question": "Where does the name Rhine derive from? ",
+        "answer": "Gaulish name R\u0113nos",
+        "context_snippet": "The variant forms of the name of the Rhine in modern languages are all derived from the Gaulish name"
+      },
+      {
+        "question": "What is the French name for the Rhine? ",
+        "answer": "Rhin",
+        "context_snippet": "The variant forms of the name of the Rhine in modern languages are all derived from the Gaulish name"
+      },
+      {
+        "question": "What is the Proto-Germanic adaptation of the name of the Rhine?",
+        "answer": "R\u012bnaz",
+        "context_snippet": "The variant forms of the name of the Rhine in modern languages are all derived from the Gaulish name"
+      }
+    ]
+  },
+  {
+    "title": "Warsaw",
+    "filename": "Warsaw.txt",
+    "num_contexts": 49,
+    "total_chars": 38124,
+    "qa_pairs": [
+      {
+        "question": "What is the largest city of Poland?",
+        "answer": "Warsaw",
+        "context_snippet": "Warsaw (Polish: Warszawa [var\u02c8\u0282ava] ( listen); see also other names) is the capital and largest city"
+      },
+      {
+        "question": "On what river does Warsaw stand?",
+        "answer": "Vistula",
+        "context_snippet": "Warsaw (Polish: Warszawa [var\u02c8\u0282ava] ( listen); see also other names) is the capital and largest city"
+      },
+      {
+        "question": "How far is Warsaw from the Baltic Sea?",
+        "answer": "roughly 260 kilometres",
+        "context_snippet": "Warsaw (Polish: Warszawa [var\u02c8\u0282ava] ( listen); see also other names) is the capital and largest city"
+      },
+      {
+        "question": "How many residents does the greater metropolitan area have?",
+        "answer": "2.666 million",
+        "context_snippet": "Warsaw (Polish: Warszawa [var\u02c8\u0282ava] ( listen); see also other names) is the capital and largest city"
+      },
+      {
+        "question": "What rank for most populous city in the European Union does Warsaw hold?",
+        "answer": "9th",
+        "context_snippet": "Warsaw (Polish: Warszawa [var\u02c8\u0282ava] ( listen); see also other names) is the capital and largest city"
+      },
+      {
+        "question": "Who ranked Warsaw as the 32nd most liveable city in the world?",
+        "answer": "Economist Intelligence Unit",
+        "context_snippet": "In 2012 the Economist Intelligence Unit ranked Warsaw as the 32nd most liveable city in the world. I"
+      },
+      {
+        "question": "When was Warsaw ranked as the 32nd most liveable city in the world?",
+        "answer": "2012",
+        "context_snippet": "In 2012 the Economist Intelligence Unit ranked Warsaw as the 32nd most liveable city in the world. I"
+      },
+      {
+        "question": "What is Warsaw's economy characterized by?",
+        "answer": "wide variety of industries",
+        "context_snippet": "In 2012 the Economist Intelligence Unit ranked Warsaw as the 32nd most liveable city in the world. I"
+      },
+      {
+        "question": "What exchange in Warsaw is one of the most important for Central and Eastern Europe?",
+        "answer": "Stock",
+        "context_snippet": "In 2012 the Economist Intelligence Unit ranked Warsaw as the 32nd most liveable city in the world. I"
+      },
+      {
+        "question": "What is the name of the European Union agency for external border security?",
+        "answer": "Frontex",
+        "context_snippet": "In 2012 the Economist Intelligence Unit ranked Warsaw as the 32nd most liveable city in the world. I"
+      }
+    ]
+  },
+  {
+    "title": "Oxygen",
+    "filename": "Oxygen.txt",
+    "num_contexts": 43,
+    "total_chars": 30764,
+    "qa_pairs": [
+      {
+        "question": "The atomic number of the periodic table for oxygen?",
+        "answer": "8",
+        "context_snippet": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen grou"
+      },
+      {
+        "question": "What is the second most abundant element?",
+        "answer": "helium",
+        "context_snippet": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen grou"
+      },
+      {
+        "question": "Which gas makes up 20.8% of the Earth's atmosphere?",
+        "answer": "Diatomic oxygen",
+        "context_snippet": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen grou"
+      },
+      {
+        "question": "How many atoms combine to form dioxygen?",
+        "answer": "two atoms",
+        "context_snippet": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen grou"
+      },
+      {
+        "question": "Roughly, how much oxygen makes up the Earth crust?",
+        "answer": "almost half",
+        "context_snippet": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen grou"
+      },
+      {
+        "question": "What is the atomic number of the element oxygen?",
+        "answer": "8",
+        "context_snippet": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen grou"
+      },
+      {
+        "question": "Of what group in the periodic table is oxygen a member?",
+        "answer": "chalcogen",
+        "context_snippet": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen grou"
+      },
+      {
+        "question": "What type of compounds does oxygen most commonly form?",
+        "answer": "oxides",
+        "context_snippet": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen grou"
+      },
+      {
+        "question": "Compared to other elements, how abundant does oxygen rank?",
+        "answer": "third",
+        "context_snippet": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen grou"
+      },
+      {
+        "question": "Under normal conditions, what do two atoms of oxygen form?",
+        "answer": "dioxygen",
+        "context_snippet": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen grou"
+      }
+    ]
+  },
+  {
+    "title": "European_Union_law",
+    "filename": "European_Union_law.txt",
+    "num_contexts": 40,
+    "total_chars": 67046,
+    "qa_pairs": [
+      {
+        "question": "What is European Union Law?",
+        "answer": "a body of treaties and legislation",
+        "context_snippet": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which "
+      },
+      {
+        "question": "What are the main sources of primary law?",
+        "answer": "Treaties establishing the European Union",
+        "context_snippet": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which "
+      },
+      {
+        "question": "What are the secondary sources of primary law?",
+        "answer": "regulations and directives",
+        "context_snippet": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which "
+      },
+      {
+        "question": "What are the two bodies that make up the European Union's legislature?",
+        "answer": "European Parliament and the Council of the European Union",
+        "context_snippet": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which "
+      },
+      {
+        "question": "What is European Union law?",
+        "answer": "a body of treaties and legislation",
+        "context_snippet": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which "
+      },
+      {
+        "question": "What effect does European Union law have on laws of member states?",
+        "answer": "direct effect or indirect effect",
+        "context_snippet": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which "
+      },
+      {
+        "question": "What are the three sources of European Union law?",
+        "answer": "primary law, secondary law and supplementary law",
+        "context_snippet": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which "
+      },
+      {
+        "question": "What are the main legislative bodies of the European Union?",
+        "answer": "European Parliament and the Council of the European Union",
+        "context_snippet": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which "
+      },
+      {
+        "question": "What are the three main sources of European Union law?",
+        "answer": "primary law, secondary law and supplementary law",
+        "context_snippet": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which "
+      },
+      {
+        "question": "What are the main sources of primary law?",
+        "answer": "the Treaties establishing the European Union",
+        "context_snippet": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which "
+      }
+    ]
+  },
+  {
+    "title": "Yuan_dynasty",
+    "filename": "Yuan_dynasty.txt",
+    "num_contexts": 47,
+    "total_chars": 45620,
+    "qa_pairs": [
+      {
+        "question": "What is the Chinese name for the Yuan dynasty?",
+        "answer": "Yu\u00e1n Ch\u00e1o",
+        "context_snippet": "The Yuan dynasty (Chinese: \u5143\u671d; pinyin: Yu\u00e1n Ch\u00e1o), officially the Great Yuan (Chinese: \u5927\u5143; pinyin: D"
+      },
+      {
+        "question": "What is the Yuan dynasty's official name?",
+        "answer": "the Great Yuan",
+        "context_snippet": "The Yuan dynasty (Chinese: \u5143\u671d; pinyin: Yu\u00e1n Ch\u00e1o), officially the Great Yuan (Chinese: \u5927\u5143; pinyin: D"
+      },
+      {
+        "question": "Who started the Yuan dynasty?",
+        "answer": "Kublai Khan",
+        "context_snippet": "The Yuan dynasty (Chinese: \u5143\u671d; pinyin: Yu\u00e1n Ch\u00e1o), officially the Great Yuan (Chinese: \u5927\u5143; pinyin: D"
+      },
+      {
+        "question": "Who led the Mongolian Borjigin clan?",
+        "answer": "Kublai Khan",
+        "context_snippet": "The Yuan dynasty (Chinese: \u5143\u671d; pinyin: Yu\u00e1n Ch\u00e1o), officially the Great Yuan (Chinese: \u5927\u5143; pinyin: D"
+      },
+      {
+        "question": "When did Khan formally declare the Yuan dynasty?",
+        "answer": "1271",
+        "context_snippet": "The Yuan dynasty (Chinese: \u5143\u671d; pinyin: Yu\u00e1n Ch\u00e1o), officially the Great Yuan (Chinese: \u5927\u5143; pinyin: D"
+      },
+      {
+        "question": "What non-Chinese empire did the Yuan dynasty succeed?",
+        "answer": "Mongol Empire",
+        "context_snippet": "The Yuan dynasty is considered both a successor to the Mongol Empire and an imperial Chinese dynasty"
+      },
+      {
+        "question": "What dynasty came before the Yuan?",
+        "answer": "Song dynasty",
+        "context_snippet": "The Yuan dynasty is considered both a successor to the Mongol Empire and an imperial Chinese dynasty"
+      },
+      {
+        "question": "What dynasty came after the Yuan?",
+        "answer": "Ming dynasty",
+        "context_snippet": "The Yuan dynasty is considered both a successor to the Mongol Empire and an imperial Chinese dynasty"
+      },
+      {
+        "question": "Who was Kublai Khan's grandfather?",
+        "answer": "Genghis Khan",
+        "context_snippet": "The Yuan dynasty is considered both a successor to the Mongol Empire and an imperial Chinese dynasty"
+      },
+      {
+        "question": "When did Khan establish the Great Yuan?",
+        "answer": "1271",
+        "context_snippet": "In 1271, Kublai Khan imposed the name Great Yuan (Chinese: \u5927\u5143; pinyin: D\u00e0 Yu\u00e1n; Wade\u2013Giles: Ta-Y\u00fcan)"
+      }
+    ]
+  },
+  {
+    "title": "Huguenot",
+    "filename": "Huguenot.txt",
+    "num_contexts": 44,
+    "total_chars": 34836,
+    "qa_pairs": [
+      {
+        "question": "Where was France's Huguenot population largely centered?",
+        "answer": "the southern and central parts of France",
+        "context_snippet": "Huguenot numbers peaked near an estimated two million by 1562, concentrated mainly in the southern a"
+      },
+      {
+        "question": "What was the proportion of Huguenots to Catholics at their peak?",
+        "answer": "about one-eighth the number",
+        "context_snippet": "Huguenot numbers peaked near an estimated two million by 1562, concentrated mainly in the southern a"
+      },
+      {
+        "question": "When were the Wars of Religion fought?",
+        "answer": "from 1562 to 1598",
+        "context_snippet": "Huguenot numbers peaked near an estimated two million by 1562, concentrated mainly in the southern a"
+      },
+      {
+        "question": "What treaty ended the Wars of Religion?",
+        "answer": "the Edict of Nantes",
+        "context_snippet": "Huguenot numbers peaked near an estimated two million by 1562, concentrated mainly in the southern a"
+      },
+      {
+        "question": "What did this agreement do?",
+        "answer": "granted the Huguenots substantial religious, political and military autonomy",
+        "context_snippet": "Huguenot numbers peaked near an estimated two million by 1562, concentrated mainly in the southern a"
+      },
+      {
+        "question": "The term Huguenot was originally meant to confer?",
+        "answer": "derision",
+        "context_snippet": "A term used originally in derision, Huguenot has unclear origins. Various hypotheses have been promo"
+      },
+      {
+        "question": "The term may be related to what politician from Switzerland?",
+        "answer": "Besan\u00e7on Hugues",
+        "context_snippet": "A term used originally in derision, Huguenot has unclear origins. Various hypotheses have been promo"
+      },
+      {
+        "question": "What Swiss city was the center of the Calvinist movement?",
+        "answer": "Geneva",
+        "context_snippet": "A term used originally in derision, Huguenot has unclear origins. Various hypotheses have been promo"
+      },
+      {
+        "question": "What name was given to the plot to usurp power from the French House of Guise?",
+        "answer": "Amboise plot",
+        "context_snippet": "A term used originally in derision, Huguenot has unclear origins. Various hypotheses have been promo"
+      },
+      {
+        "question": "When did this attempt take place?",
+        "answer": "1560",
+        "context_snippet": "A term used originally in derision, Huguenot has unclear origins. Various hypotheses have been promo"
+      }
+    ]
+  },
+  {
+    "title": "Steam_engine",
+    "filename": "Steam_engine.txt",
+    "num_contexts": 46,
+    "total_chars": 34441,
+    "qa_pairs": [
+      {
+        "question": "Along with geothermal and nuclear, what is a notable non-combustion heat source?",
+        "answer": "solar",
+        "context_snippet": "Steam engines are external combustion engines, where the working fluid is separate from the combusti"
+      },
+      {
+        "question": "What ideal thermodynamic cycle analyzes the process by which steam engines work?",
+        "answer": "Rankine",
+        "context_snippet": "Steam engines are external combustion engines, where the working fluid is separate from the combusti"
+      },
+      {
+        "question": "In the Rankine cycle, what does water turn into when heated?",
+        "answer": "steam",
+        "context_snippet": "Steam engines are external combustion engines, where the working fluid is separate from the combusti"
+      },
+      {
+        "question": "At what pressure is water heated in the Rankine cycle?",
+        "answer": "high",
+        "context_snippet": "Steam engines are external combustion engines, where the working fluid is separate from the combusti"
+      },
+      {
+        "question": "What types of engines are steam engines?",
+        "answer": "external combustion",
+        "context_snippet": "Steam engines are external combustion engines, where the working fluid is separate from the combusti"
+      },
+      {
+        "question": "What was the first true engine that was commercially successful?",
+        "answer": "atmospheric engine",
+        "context_snippet": "The first commercially successful true engine, in that it could generate power and transmit it to a "
+      },
+      {
+        "question": "Who was the inventor of the atmospheric engine?",
+        "answer": "Thomas Newcomen",
+        "context_snippet": "The first commercially successful true engine, in that it could generate power and transmit it to a "
+      },
+      {
+        "question": "About what year was the atmospheric engine invented?",
+        "answer": "1712",
+        "context_snippet": "The first commercially successful true engine, in that it could generate power and transmit it to a "
+      },
+      {
+        "question": "What was invented by Savery?",
+        "answer": "steam pump",
+        "context_snippet": "The first commercially successful true engine, in that it could generate power and transmit it to a "
+      },
+      {
+        "question": "Who conceptualized the piston?",
+        "answer": "Papin",
+        "context_snippet": "The first commercially successful true engine, in that it could generate power and transmit it to a "
+      }
+    ]
+  },
+  {
+    "title": "Immune_system",
+    "filename": "Immune_system.txt",
+    "num_contexts": 49,
+    "total_chars": 41014,
+    "qa_pairs": [
+      {
+        "question": "The immune system protects organisms against what?",
+        "answer": "disease",
+        "context_snippet": "The immune system is a system of many biological structures and processes within an organism that pr"
+      },
+      {
+        "question": "What are the agents the immune system detects known as?",
+        "answer": "pathogens",
+        "context_snippet": "The immune system is a system of many biological structures and processes within an organism that pr"
+      },
+      {
+        "question": "Which part of the immune system protects the brain?",
+        "answer": "neuroimmune system",
+        "context_snippet": "The immune system is a system of many biological structures and processes within an organism that pr"
+      },
+      {
+        "question": "What separates the neuroimmune system and peripheral immune system in humans?",
+        "answer": "blood\u2013brain barrier, blood\u2013cerebrospinal fluid barrier",
+        "context_snippet": "The immune system is a system of many biological structures and processes within an organism that pr"
+      },
+      {
+        "question": "What are the agents detected by the immune system called?",
+        "answer": "pathogens",
+        "context_snippet": "The immune system is a system of many biological structures and processes within an organism that pr"
+      },
+      {
+        "question": "What are the two different types of immunity?",
+        "answer": "humoral immunity versus cell-mediated immunity",
+        "context_snippet": "The immune system is a system of many biological structures and processes within an organism that pr"
+      },
+      {
+        "question": "What are the two major subsystems of the immune system?",
+        "answer": "innate immune system versus the adaptive immune system",
+        "context_snippet": "The immune system is a system of many biological structures and processes within an organism that pr"
+      },
+      {
+        "question": "What is the immune system of the brained known as?",
+        "answer": "neuroimmune system",
+        "context_snippet": "The immune system is a system of many biological structures and processes within an organism that pr"
+      },
+      {
+        "question": "What happens when the immune system less active than normal?",
+        "answer": "Immunodeficiency",
+        "context_snippet": "Disorders of the immune system can result in autoimmune diseases, inflammatory diseases and cancer. "
+      },
+      {
+        "question": "What is the term for a hyperactive immune system that attacks normal tissues?",
+        "answer": "autoimmunity",
+        "context_snippet": "Disorders of the immune system can result in autoimmune diseases, inflammatory diseases and cancer. "
+      }
+    ]
+  },
+  {
+    "title": "Force",
+    "filename": "Force.txt",
+    "num_contexts": 44,
+    "total_chars": 37416,
+    "qa_pairs": [
+      {
+        "question": "What concept did philosophers in antiquity use to study simple machines?",
+        "answer": "force",
+        "context_snippet": "Philosophers in antiquity used the concept of force in the study of stationary and moving objects an"
+      },
+      {
+        "question": "What was the belief that maintaining motion required force?",
+        "answer": "fundamental error",
+        "context_snippet": "Philosophers in antiquity used the concept of force in the study of stationary and moving objects an"
+      },
+      {
+        "question": "Who had mathmatical insite?",
+        "answer": "Sir Isaac Newton",
+        "context_snippet": "Philosophers in antiquity used the concept of force in the study of stationary and moving objects an"
+      },
+      {
+        "question": "How long did it take to improve on Sir Isaac Newton's laws of motion?",
+        "answer": "nearly three hundred years",
+        "context_snippet": "Philosophers in antiquity used the concept of force in the study of stationary and moving objects an"
+      },
+      {
+        "question": "Who develped the theory of relativity?",
+        "answer": "Einstein",
+        "context_snippet": "Philosophers in antiquity used the concept of force in the study of stationary and moving objects an"
+      },
+      {
+        "question": "What has partical physics made to describe sub-atomic forces?",
+        "answer": "Standard Model",
+        "context_snippet": "With modern insights into quantum mechanics and technology that can accelerate particles close to th"
+      },
+      {
+        "question": "What are the exchanged particles predicted by the standard Model?",
+        "answer": "gauge bosons",
+        "context_snippet": "With modern insights into quantum mechanics and technology that can accelerate particles close to th"
+      },
+      {
+        "question": "What is the strongest main interaction?",
+        "answer": "strong",
+        "context_snippet": "With modern insights into quantum mechanics and technology that can accelerate particles close to th"
+      },
+      {
+        "question": "What is the weakest main interaction?",
+        "answer": "gravitational",
+        "context_snippet": "With modern insights into quantum mechanics and technology that can accelerate particles close to th"
+      },
+      {
+        "question": "What are weak and electromatic forces expressions of?",
+        "answer": "electroweak interaction",
+        "context_snippet": "With modern insights into quantum mechanics and technology that can accelerate particles close to th"
+      }
+    ]
+  },
+  {
+    "title": "Computational_complexity_theory",
+    "filename": "Computational_complexity_theory.txt",
+    "num_contexts": 48,
+    "total_chars": 27532,
+    "qa_pairs": [
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory",
+        "context_snippet": "Computational complexity theory is a branch of the theory of computation in theoretical computer sci"
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory? ",
+        "answer": "inherent difficulty",
+        "context_snippet": "Computational complexity theory is a branch of the theory of computation in theoretical computer sci"
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "computational problems",
+        "context_snippet": "Computational complexity theory is a branch of the theory of computation in theoretical computer sci"
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "if its solution requires significant resources",
+        "context_snippet": "A problem is regarded as inherently difficult if its solution requires significant resources, whatev"
+      },
+      {
+        "question": "What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?",
+        "answer": "mathematical models of computation",
+        "context_snippet": "A problem is regarded as inherently difficult if its solution requires significant resources, whatev"
+      },
+      {
+        "question": "What are two basic primary resources used to guage complexity?",
+        "answer": "time and storage",
+        "context_snippet": "A problem is regarded as inherently difficult if its solution requires significant resources, whatev"
+      },
+      {
+        "question": "What unit is measured to determine circuit complexity?",
+        "answer": "number of gates in a circuit",
+        "context_snippet": "A problem is regarded as inherently difficult if its solution requires significant resources, whatev"
+      },
+      {
+        "question": "What practical role does defining the complexity of problems play in everyday computing?",
+        "answer": "determine the practical limits on what computers can and cannot do",
+        "context_snippet": "A problem is regarded as inherently difficult if its solution requires significant resources, whatev"
+      },
+      {
+        "question": "What two fields of theoretical computer science closely mirror computational complexity theory?",
+        "answer": "analysis of algorithms and computability theory",
+        "context_snippet": "Closely related fields in theoretical computer science are analysis of algorithms and computability "
+      },
+      {
+        "question": "What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?",
+        "answer": "analysis of algorithms",
+        "context_snippet": "Closely related fields in theoretical computer science are analysis of algorithms and computability "
+      }
+    ]
+  },
+  {
+    "title": "Civil_disobedience",
+    "filename": "Civil_disobedience.txt",
+    "num_contexts": 26,
+    "total_chars": 22765,
+    "qa_pairs": [
+      {
+        "question": "What is it called when people in society rebel against laws they think are unfair?",
+        "answer": "Civil disobedience",
+        "context_snippet": "One of its earliest massive implementations was brought about by Egyptians against the British occup"
+      },
+      {
+        "question": "What is an example of major civil disobedience in South Africa?",
+        "answer": "apartheid",
+        "context_snippet": "One of its earliest massive implementations was brought about by Egyptians against the British occup"
+      },
+      {
+        "question": "What was the the movement called that brought Baltic countries independence from the Soviet Union?",
+        "answer": "Singing Revolution",
+        "context_snippet": "One of its earliest massive implementations was brought about by Egyptians against the British occup"
+      },
+      {
+        "question": "In 2004 the Orange revolution occurred in what country?",
+        "answer": "Ukraine",
+        "context_snippet": "One of its earliest massive implementations was brought about by Egyptians against the British occup"
+      },
+      {
+        "question": "Where was the location of the 2003 Rose revolution?",
+        "answer": "Georgia",
+        "context_snippet": "One of its earliest massive implementations was brought about by Egyptians against the British occup"
+      },
+      {
+        "question": "Which people brought forward one of the earliest examples of Civil Disobedience?",
+        "answer": "Egyptians",
+        "context_snippet": "One of its earliest massive implementations was brought about by Egyptians against the British occup"
+      },
+      {
+        "question": "Who was one of the earliest examples of Civil Disobedience against?",
+        "answer": "the British",
+        "context_snippet": "One of its earliest massive implementations was brought about by Egyptians against the British occup"
+      },
+      {
+        "question": "Why do people chose civil disobedience to protest?",
+        "answer": "nonviolent resistance",
+        "context_snippet": "One of its earliest massive implementations was brought about by Egyptians against the British occup"
+      },
+      {
+        "question": "What does civil disobedience protest against?",
+        "answer": "unfair laws",
+        "context_snippet": "One of its earliest massive implementations was brought about by Egyptians against the British occup"
+      },
+      {
+        "question": "What civil rights movement in the US was known for it's disobedience?",
+        "answer": "American Civil Rights Movement",
+        "context_snippet": "One of its earliest massive implementations was brought about by Egyptians against the British occup"
+      }
+    ]
+  },
+  {
+    "title": "Islamism",
+    "filename": "Islamism.txt",
+    "num_contexts": 39,
+    "total_chars": 27690,
+    "qa_pairs": [
+      {
+        "question": "What is an Islamic revival movement?",
+        "answer": "Islamism",
+        "context_snippet": "Islamism, also known as Political Islam (Arabic: \u0625\u0633\u0644\u0627\u0645 \u0633\u064a\u0627\u0633\u064a\u200e isl\u0101m siy\u0101s\u012b), is an Islamic revival m"
+      },
+      {
+        "question": "What aspects of life does Islamism seek to integrate itself into?",
+        "answer": "all spheres of life.",
+        "context_snippet": "Islamism, also known as Political Islam (Arabic: \u0625\u0633\u0644\u0627\u0645 \u0633\u064a\u0627\u0633\u064a\u200e isl\u0101m siy\u0101s\u012b), is an Islamic revival m"
+      },
+      {
+        "question": "What goal does Islamism have when it comes to society and government?",
+        "answer": "reordering",
+        "context_snippet": "Islamism, also known as Political Islam (Arabic: \u0625\u0633\u0644\u0627\u0645 \u0633\u064a\u0627\u0633\u064a\u200e isl\u0101m siy\u0101s\u012b), is an Islamic revival m"
+      },
+      {
+        "question": "What have the two different Islamist movements been described as oscillating between?",
+        "answer": "poles",
+        "context_snippet": "Islamism, also known as Political Islam (Arabic: \u0625\u0633\u0644\u0627\u0645 \u0633\u064a\u0627\u0633\u064a\u200e isl\u0101m siy\u0101s\u012b), is an Islamic revival m"
+      },
+      {
+        "question": "One strategy of Islamization is to seize power by what methods?",
+        "answer": "revolution or invasion",
+        "context_snippet": "Islamism, also known as Political Islam (Arabic: \u0625\u0633\u0644\u0627\u0645 \u0633\u064a\u0627\u0633\u064a\u200e isl\u0101m siy\u0101s\u012b), is an Islamic revival m"
+      },
+      {
+        "question": "What process do moderate and reformist Islamists work within the boundaries of?",
+        "answer": "democratic",
+        "context_snippet": "Moderate and reformist Islamists who accept and work within the democratic process include parties l"
+      },
+      {
+        "question": "Where does Hamas originate?",
+        "answer": "Palestine",
+        "context_snippet": "Moderate and reformist Islamists who accept and work within the democratic process include parties l"
+      },
+      {
+        "question": "What is the goal of Islamist groups like Hezbollah and Hamas?",
+        "answer": "abolish the state of Israel",
+        "context_snippet": "Moderate and reformist Islamists who accept and work within the democratic process include parties l"
+      },
+      {
+        "question": "What do radical Islamist organizations reject entirely?",
+        "answer": "democracy",
+        "context_snippet": "Moderate and reformist Islamists who accept and work within the democratic process include parties l"
+      },
+      {
+        "question": "On what basis do the radical Islamist organizations conduct their attacks?",
+        "answer": "religious",
+        "context_snippet": "Moderate and reformist Islamists who accept and work within the democratic process include parties l"
+      }
+    ]
+  },
+  {
+    "title": "Scottish_Parliament",
+    "filename": "Scottish_Parliament.txt",
+    "num_contexts": 39,
+    "total_chars": 30047,
+    "qa_pairs": [
+      {
+        "question": "When was the current parliament of Scotland convened?",
+        "answer": "Following a referendum in 1997",
+        "context_snippet": "Following a referendum in 1997, in which the Scottish electorate voted for devolution, the current P"
+      },
+      {
+        "question": "What act set out the Parliament's powers as a devolved legislature?",
+        "answer": "Scotland Act 1998",
+        "context_snippet": "Following a referendum in 1997, in which the Scottish electorate voted for devolution, the current P"
+      },
+      {
+        "question": "The legislative competence of the Parliament species what areas?",
+        "answer": "in which it can make laws",
+        "context_snippet": "Following a referendum in 1997, in which the Scottish electorate voted for devolution, the current P"
+      },
+      {
+        "question": "To what body are certain powers explicitly specified as being reserved for?",
+        "answer": "Parliament of the United Kingdom",
+        "context_snippet": "Following a referendum in 1997, in which the Scottish electorate voted for devolution, the current P"
+      },
+      {
+        "question": "The Scottish Parliament may legislate as it pleases as long as the powers aren't already reserved by where?",
+        "answer": "Westminster",
+        "context_snippet": "Following a referendum in 1997, in which the Scottish electorate voted for devolution, the current P"
+      },
+      {
+        "question": "What remained an important issue in Scottish national identity for many years?",
+        "answer": "lack of a Parliament of Scotland",
+        "context_snippet": "For the next three hundred years, Scotland was directly governed by the Parliament of Great Britain "
+      },
+      {
+        "question": "How many hundred of years was Scotland directly governed by the parliament of Great Britain?",
+        "answer": "three hundred",
+        "context_snippet": "For the next three hundred years, Scotland was directly governed by the Parliament of Great Britain "
+      },
+      {
+        "question": "Why were the initial suggestions for a devolved parliament before 1914 shelved?",
+        "answer": "First World War.",
+        "context_snippet": "For the next three hundred years, Scotland was directly governed by the Parliament of Great Britain "
+      },
+      {
+        "question": "When was there a sharp rise in nationalism in Scotland?",
+        "answer": "the late 1960s",
+        "context_snippet": "For the next three hundred years, Scotland was directly governed by the Parliament of Great Britain "
+      },
+      {
+        "question": "What did Kllbrandon's report in 1973 recommend establishing?",
+        "answer": "directly elected Scottish Assembly",
+        "context_snippet": "For the next three hundred years, Scotland was directly governed by the Parliament of Great Britain "
+      }
+    ]
+  },
+  {
+    "title": "Imperialism",
+    "filename": "Imperialism.txt",
+    "num_contexts": 39,
+    "total_chars": 35849,
+    "qa_pairs": [
+      {
+        "question": "The word imperialism has it's origins in which ancient language? ",
+        "answer": "Latin",
+        "context_snippet": "Imperialism is a type of advocacy of empire. Its name originated from the Latin word \"imperium\", whi"
+      },
+      {
+        "question": "By what means is imperialism usually administered?",
+        "answer": "military force",
+        "context_snippet": "Imperialism is a type of advocacy of empire. Its name originated from the Latin word \"imperium\", whi"
+      },
+      {
+        "question": "The term imperialism has been applied to western countries, and which eastern county?",
+        "answer": "Japan",
+        "context_snippet": "Imperialism is a type of advocacy of empire. Its name originated from the Latin word \"imperium\", whi"
+      },
+      {
+        "question": "Imperialism is responsible for the rapid spread of what?",
+        "answer": "technologies and ideas",
+        "context_snippet": "Imperialism is a type of advocacy of empire. Its name originated from the Latin word \"imperium\", whi"
+      },
+      {
+        "question": "Imperialism extends a country's power and what?",
+        "answer": "influence",
+        "context_snippet": "Imperialism is defined as \"A policy of extending a country\u2019s power and influence through diplomacy o"
+      },
+      {
+        "question": "colonial rule would be considered what type of imperialism?",
+        "answer": "\"Formal imperialism\"",
+        "context_snippet": "Imperialism is defined as \"A policy of extending a country\u2019s power and influence through diplomacy o"
+      },
+      {
+        "question": "imperialism often divides countries by using which technique?",
+        "answer": "othering",
+        "context_snippet": "Imperialism is defined as \"A policy of extending a country\u2019s power and influence through diplomacy o"
+      },
+      {
+        "question": "Informal imperialism is still dominant; however, less what?",
+        "answer": "direct",
+        "context_snippet": "Imperialism is defined as \"A policy of extending a country\u2019s power and influence through diplomacy o"
+      },
+      {
+        "question": "A forced trade agreement between two countries would be an example of what?",
+        "answer": "\"informal\" imperialism",
+        "context_snippet": "The definition of imperialism has not been finalized for centuries and was confusedly seen to repres"
+      },
+      {
+        "question": "colonial rule, or physical occupation of a territory is an example of what kind of imperialism?",
+        "answer": "\"formal\"",
+        "context_snippet": "The definition of imperialism has not been finalized for centuries and was confusedly seen to repres"
+      }
+    ]
+  }
+]

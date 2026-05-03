@@ -21,10 +21,6 @@ class Settings(BaseSettings):
             f"@{self.postgres_host}:{self.postgres_port}/{self.postgres_db}"
         )
 
-    @property
-    def async_database_url(self) -> str:
-        return self.database_url.replace("psycopg2", "psycopg2")
-
     qdrant_url: str = ""
     qdrant_api_key: str = ""
     qdrant_collection: str = "rag_documents"
@@ -32,10 +28,15 @@ class Settings(BaseSettings):
     mistral_api_key: str = ""
     mistral_chat_model: str = "mistral-large-latest"
     mistral_embedding_model: str = "mistral-embed"
+    mistral_small_model: str = "mistral-small-latest"
+    mistral_vision_model: str = "pixtral-large-latest"
+
+    sparse_model_name: str = "Qdrant/bm25"
 
     chunk_size: int = 1000
     chunk_overlap: int = 200
     top_k_results: int = 5
+    rrf_k: int = 60
 
 
 settings = Settings()

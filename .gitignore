@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.so
+
 .python-version
 
 # Env
